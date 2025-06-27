@@ -8,6 +8,7 @@ function App() {
 
   return (
     <main className='w-full min-h-screen font-eastman'>
+      pruebaaaa
       <Navbar />
       <Header />
       <Caracteristicas />
