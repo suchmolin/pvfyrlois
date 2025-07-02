@@ -2,7 +2,7 @@ import { FiArrowRightCircle } from "react-icons/fi";
 import Contador from "../Contador";
 export default function Header() {
     return (
-        <section className="w-full bg-[url('/img/cieloFondo.png')] bg-cover bg-center bg-no-repeat pt-10 flex flex-col items-center relative">
+        <section id="inicio" className="w-full bg-[url('/img/cieloFondo.png')] bg-cover bg-center bg-no-repeat pt-10 flex flex-col items-center relative">
             <img src="/img/logo2.png" alt="logo summjer Fyr Lois" className="w-[400px] h-auto" />
             <h1 className="text-azul text-3xl text-center font-eastman-bold mb-5">¡Dale a tu hijo una <br /> experiencia única!</h1>
             <div className="relative px-5 py-3">

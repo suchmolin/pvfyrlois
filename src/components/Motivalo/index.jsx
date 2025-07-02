@@ -2,7 +2,7 @@ import Aniversary from "../Aniversary";
 
 export default function Motivalo() {
     return (
-        <section className="w-full">
+        <section id="conocenos" className="w-full">
             <div className="pt-10 bg-[url('/img/rayasgrisesfondo.webp')] bg-center bg-cover">
                 <div className="flex justify-center mb-7">
                     <div className="relative p-3 w-fit">

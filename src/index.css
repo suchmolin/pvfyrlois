@@ -62,4 +62,6 @@
   scroll-behavior: smooth;
 }
 
-
+textarea{
+  resize: none;
+}

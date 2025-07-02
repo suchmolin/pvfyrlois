@@ -1,0 +1,82 @@
+import { FiArrowRightCircle } from "react-icons/fi"
+
+export default function UnPlanVacaional() {
+    const cards = [
+        {
+            title: "KIDS: 3-5 AÑOS",
+            titleColor: "#001A70",
+            icon: "/img/rosa.webp",
+            img: "/img/nina.png",
+            bg: "#D60078",
+            textBold: "¡Curiosidad sin límites! ",
+            text: "Actividades diseñadas para acompañar sus primeros pasos junto al  inglés, mientras descubren el mundo a través de juegos y rutinas que estimulan su imaginación.",
+            width: "w-[200px]",
+        },
+        {
+            title: "ELEMENTARY: 6–11 AÑOS",
+            titleColor: "#97D700",
+            icon: "/img/naranja.webp",
+            img: "/img/nino.png",
+            bg: "#001A70",
+            textBold: "¡Es momento de explorar! ",
+            text: "Tu hijo vivirá aventuras para impulsar su creatividad y trabajo en equipo, a través de retos y dinámicas interactivas que conectan con sus Intereses.",
+            reverse: true,
+            width: "w-[280px]",
+        },
+        {
+            title: "HIGH SCHOOL: 12–16 AÑOS",
+            titleColor: "#001A70",
+            icon: "/img/verde.webp",
+            img: "/img/adolecente.png",
+            bg: "#97D700",
+            textBold: "¡A conquistar el mundo! ",
+            text: "Una aventura lingüística adaptada a su edad, con desafíos divertidos para desenvolverse con confianza en escenarios reales.",
+            width: "w-[280px]",
+        },
+    ]
+    return (
+        <section id="edades" className="w-full flex flex-col items-center  overflow-hidden">
+            <div className="w-full bg-verde text-center pt-10 pb-7">
+                <h2 className="text-azul text-2xl font-eastman-bold">
+                    ¡UN PLAN VACACIONAL <br />
+                    <span className="text-white">ADAPTADO A SU EDAD!</span>
+
+                </h2>
+            </div>
+            <div className={`w-full bg-white relative `}>
+                <img src="/img/manoizquierda.webp" alt="mano izq" className="absolute w-[180px] -top-12 -left-15" />
+                <img src="/img/manoderecha.webp" alt="mano der" className="absolute w-[180px] -top-12 -right-15" />
+            </div>
+            <div className="w-full flex- flex-col gap-3 mt-10 min-[440px]:mt-0">
+                {
+                    cards.map(card => (
+                        <div key={card.title} className="w-full flex flex-col items-center mb-3 relative">
+                            {/* <div className="w-full h-[60px] absolute bottom-0 bg-[url('/img/rayasgrisesfondo.webp')] bg-center bg-cover"></div> */}
+                            <div className={`relative w-full flex justify-center items-end ${card.reverse ? "flex-row-reverse" : ""}`}>
+                                <img src={card.icon} alt={`icon for ${card.title}`} className={`w-[150px] -mb-5 ${card.reverse ? "-ml-15" : "-mr-15"}`} />
+                                <img src={card.img} alt={`image for ${card.title}`} className={`${card.width} h-fit`} />
+                            </div>
+                            <div style={{ backgroundColor: card.bg }} className={`relative  w-11/12 rounded-lg py-3 px-5 text-white`}>
+                                <h3 style={{ color: card.titleColor }} className={`flex items-center gap-1 font-bold`}>
+                                    <span className="w-[8px] h-[8px] bg-white rounded-full mt-1"></span>
+                                    {card.title}
+                                </h3>
+                                <p className="text-center text-sm"><b>{card.textBold}</b>{card.text}</p>
+                            </div>
+                        </div>
+
+                    ))
+                }
+            </div>
+
+            <div className="flex justify-center hover:scale-[102%] duration-300 py-7">
+                <a href="#" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
+                    <span className="text-white text-4xl"><FiArrowRightCircle /></span>
+                    <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
+                    <span className="-mt-1">¡QUIERO INSCRIBIRLO!</span>
+                </a>
+            </div>
+
+        </section>
+    )
+}
