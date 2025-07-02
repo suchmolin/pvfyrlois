@@ -30,7 +30,7 @@ export default function Sumergelo() {
                         ))
                     }
                 </div>
-                <img src="/img/adolecente.png" alt="niño con vinocular" className="w-[330px] min-[450px]:w-[400px] absolute bottom-0" />
+                <img src="/img/niño-visorconfondo.png" alt="niño con vinocular" className="w-[250px] min-[450px]:w-[300px] absolute -bottom-30 -ml-20" />
             </section >
             <div className="w-full pt-7 pb-10 flex items-center justify-center bg-[url('/img/papel.webp')] bg-center bg-cover relative">
                 <div className="flex justify-center hover:scale-[102%] duration-300">

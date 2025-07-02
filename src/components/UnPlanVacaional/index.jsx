@@ -44,8 +44,8 @@ export default function UnPlanVacaional() {
                 </h2>
             </div>
             <div className={`w-full bg-white relative `}>
-                <img src="/img/manoizquierda.webp" alt="mano izq" className="absolute w-[180px] -top-12 -left-15" />
-                <img src="/img/manoderecha.webp" alt="mano der" className="absolute w-[180px] -top-12 -right-15" />
+                <img src="/img/manoizquierda.webp" alt="mano izq" className="absolute w-[180px] -top-8 -left-15" />
+                <img src="/img/manoderecha.webp" alt="mano der" className="absolute w-[180px] -top-8 -right-15" />
             </div>
             <div className="w-full flex- flex-col gap-3 mt-10 min-[440px]:mt-0">
                 {

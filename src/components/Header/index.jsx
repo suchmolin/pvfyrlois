@@ -1,6 +1,7 @@
 import { FiArrowRightCircle } from "react-icons/fi";
 import Contador from "../Contador";
 export default function Header() {
+
     return (
         <section id="inicio" className="w-full bg-[url('/img/cieloFondo.png')] bg-cover bg-center bg-no-repeat pt-10 flex flex-col items-center relative">
             <img src="/img/logo2.png" alt="logo summjer Fyr Lois" className="w-[400px] h-auto" />

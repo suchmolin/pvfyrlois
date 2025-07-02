@@ -33,7 +33,7 @@ export default function PreguntasFrecuentes() {
                     <p className="text-center text-white font-bold text-xs min-[440px]:text-sm">Nivel de inglés</p>
                 </div>
                 <div className="w-[100px] min-[440px]:w-[130px] flex flex-col items-center py-2 justify-center rounded-md bg-naranja">
-                    <img src="/img/marcocomun.webp" alt="nivel de ingles" className="w-[40px]" />
+                    <img src="/img/marcocomuneuropeoblanco.webp" alt="nivel de ingles" className="w-[40px]" />
                     <p className="text-center text-white font-bold text-xs min-[440px]:text-sm">Metodología</p>
                 </div>
                 <div className="w-[100px] min-[440px]:w-[130px] flex flex-col items-center py-2 justify-center rounded-md bg-verde">

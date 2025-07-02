@@ -5,7 +5,7 @@ export default function Footer() {
     const liStyle = "flex gap-1 items-center text-azul text-xs"
     return (
         <footer className="w-full bg-verde py-10 relative px-5 flex flex-wrap min-[385px]:flex-nowrap gap-5 justify-between min-[385px]:justify-center z-10">
-            {/* <img src="/img/" alt="" /> */}
+            <img src="/img/llineasblancas.webp" alt="" className="absolute top-3 w-full" />
             <img src="/img/logo.webp" alt="logo Fyr Lois Footer" className="w-[80px] h-fit order-1 min-[385px]:order-0" />
             <ul className="order-0">
                 <li className="font-eastman-bold text-azul text-sm">Navegación</li>
