@@ -29,12 +29,15 @@ export default function AsiSeVive() {
 
     // Función para manejar la selección y reproducción/pausa
     const handleSelect = (id) => {
+        const idx = videos.findIndex(vid => vid.id === id)
+        const ref = videoRefs.current[idx]
         if (selected === id) {
-            // Si el video ya está seleccionado, ponerle pausa
-            const idx = videos.findIndex(vid => vid.id === id)
-            const ref = videoRefs.current[idx]
             if (ref) {
-                ref.pause()
+                if (ref.paused) {
+                    ref.play()
+                } else {
+                    ref.pause()
+                }
             }
             return
         }
