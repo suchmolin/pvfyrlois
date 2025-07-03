@@ -1,5 +1,43 @@
 import Slider from "react-slick";
 
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <img
+            src="/img/flechasdobles.webp"
+            alt="Siguiente"
+            className={`${className} hover:scale-[115%] duration-300 aspect-square`}
+            style={{
+                ...style,
+                display: "block",
+                zIndex: 2,
+                transform: "rotate(0deg)",
+                cursor: "pointer"
+            }}
+            onClick={onClick}
+        />
+    );
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <img
+            src="/img/flechasdobles.webp"
+            alt="Anterior"
+            className={`${className} hover:scale-[115%] duration-300 aspect-square`}
+            style={{
+                ...style,
+                display: "block",
+                zIndex: 2,
+                transform: "rotate(180deg)",
+                cursor: "pointer"
+            }}
+            onClick={onClick}
+        />
+    );
+}
+
 export default function ReviewsSlider() {
     const rvs = [
         [
@@ -22,16 +60,18 @@ export default function ReviewsSlider() {
             "/img/reviews/Captura de pantalla 2025-06-24 a la(s) 5.14.12 p.m..png",
             "/img/reviews/Captura de pantalla 2025-06-24 a la(s) 5.18.56 p.m..png",
         ],
-    ]
+    ];
     const settings = {
         dots: true,
         infinite: true,
         speed: 1000,
         slidesToShow: 1,
-        // slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 3000,
-        // cssEase: "linear"
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        cssEase: "linear",
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
     };
     return (
         <div className="w-full flex justify-center slider-container my-10">
@@ -57,5 +97,5 @@ export default function ReviewsSlider() {
                 }
             </Slider>
         </div>
-    )
+    );
 }
