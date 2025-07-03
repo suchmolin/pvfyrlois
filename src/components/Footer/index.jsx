@@ -12,7 +12,7 @@ export default function Footer() {
                 <li className={liStyle + " lg:w-[130px] xl:w-[160px]"}><GoDotFill className="text-white" /> <a href="#inicio">Inicio</a></li>
                 <li className={liStyle + " lg:w-[130px] xl:w-[160px]"}><GoDotFill className="text-white" /> <a href="#conocenos">Conócenos</a></li>
                 <li className={liStyle + " lg:w-[130px] xl:w-[160px]"}><GoDotFill className="text-white" /> <a href="#tematicas">Temáticas</a></li>
-                <li className={liStyle + " lg:w-[130px] xl:w-[160px]"}><GoDotFill className="text-white" /> <a href="#testimonios">Testimonios</a></li>
+                {/* <li className={liStyle + " lg:w-[130px] xl:w-[160px]"}><GoDotFill className="text-white" /> <a href="#testimonios">Testimonios</a></li> */}
                 <li className={liStyle + " lg:w-[130px] xl:w-[160px]"}><GoDotFill className="text-white" /> <a href="#edades">Edades</a></li>
                 <li className={liStyle + " lg:w-[130px] xl:w-[160px]"}><GoDotFill className="text-white" /> <a href="#preventa">Preventa</a></li>
                 <li className={liStyle + " lg:w-[130px] xl:w-[160px]"}><GoDotFill className="text-white" /> <a href="#faq">FAQ</a></li>
