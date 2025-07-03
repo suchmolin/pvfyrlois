@@ -29,7 +29,7 @@ export default function Caracteristicas() {
                 </div>
             </div>
             <div className="flex justify-center hover:scale-[102%] duration-300">
-                <a href="#" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
+                <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
                     <span className="text-white text-4xl"><FiArrowRightCircle /></span>
                     <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
                     <span className="-mt-1">RESERVA SU CUPO AHORA</span>

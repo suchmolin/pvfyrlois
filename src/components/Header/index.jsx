@@ -18,7 +18,7 @@ export default function Header() {
                 </div>
                 <h2 className="text-azul text-2xl xl:text-3xl italic font-lato-black mt-5">Primera etapa:</h2>
                 <Contador />
-                <a href="#" className="flex text-naranja text-2xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5  hover:scale-[102%] duration-300">
+                <a href="#contacto" className="flex text-naranja text-2xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5  hover:scale-[102%] duration-300">
                     <span className="text-white text-4xl"><FiArrowRightCircle /></span>
                     <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
                     <span className="-mt-1">INSCRÍBELO AHORA</span>

@@ -78,7 +78,7 @@ export default function AsiSeVive() {
             </div>
 
             <div className="flex justify-center hover:scale-[102%] duration-300">
-                <a href="#" className="flex text-naranja text-nowrap text-base min-[3650px]:text-lg min-[400px]:text-xl min-[460px]:text-2xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
+                <a href="#contacto" className="flex text-naranja text-nowrap text-base min-[3650px]:text-lg min-[400px]:text-xl min-[460px]:text-2xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
                     <span className="text-white text-4xl"><FiArrowRightCircle /></span>
                     <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
                     <span className="-mt-1">QUIERO INSCRIBIR A MI HIJO</span>

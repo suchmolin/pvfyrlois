@@ -20,7 +20,7 @@ export default function AprovechaPreventa() {
                         <img src="/img/verde.webp" alt="/img/verde.webp" className={imgSize + " z-10 -ml-7 sm:-ml-15 md:-ml-15"} />
                         <img src="/img/naranja.webp" alt="/img/naranja.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15"} />
                     </div>
-                    <a href="#" className="flex text-white text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl  font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 lg:px-7 rounded-md mb-5 w-fit z-10">
+                    <a href="#contacto" className="flex text-white text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl  font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 lg:px-7 rounded-md mb-5 w-fit z-10">
                         <span className="text-white text-4xl lg:text-5xl"><FiArrowRightCircle /></span>
                         <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
                         <span className="-mt-1">OBTENER DESCUENTO</span>

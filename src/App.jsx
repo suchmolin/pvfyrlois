@@ -15,6 +15,7 @@ import Sumergelo from './components/Sumergelo'
 import Summer2025 from './components/Summer2025'
 import TodoListo from './components/TodoListo'
 import UnPlanVacaional from './components/UnPlanVacaional'
+import WhatsappButton from './components/WhatsappButton'
 
 function App() {
 
@@ -35,6 +36,8 @@ function App() {
       <PreguntasFrecuentes />
       <Contactanos />
       <Footer />
+
+      <WhatsappButton />
 
     </main>
   )
