@@ -9,9 +9,9 @@ export default function Sumergelo() {
     ]
     return (
         <>
-            <section className="w-full flex flex-col items-center border-azul border-t-2 bg-amarillo relative overflow-hidden pb-10">
+            <section className="w-full flex flex-col items-center border-azul border-t-2 bg-amarillo relative overflow-hidden pb-10 lg:pb-20">
                 <img src="/img/lineadiscontinuablancascirculosnaranjas.webp" alt="lineas divesirias" className="w-full" />
-                <h2 className="text-lg min-[370px]:text-xl text-azul font-eastman-bold text-center text-nowrap mt-5 mb-10 w-[430px] min-[470px]:my-5">
+                <h2 className="text-lg min-[370px]:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-azul font-eastman-bold text-center text-nowrap mt-5 mb-10 w-[430px] sm:w-full min-[470px]:my-5 sm:my-10">
                     ¡Sumérgelo en una aventura que <br />
                     ampliará su visión del mundo!
                 </h2>
@@ -26,11 +26,11 @@ export default function Sumergelo() {
                 <div className="w-full flex justify-center py-10 gap-4 flex-wrap">
                     {
                         imgs.map(image => (
-                            <img key={image} src={image} alt={image} className="w-[150px] min-[450px]:w-[200px]" />
+                            <img key={image} src={image} alt={image} className="w-[150px] min-[450px]:w-[200px] lg:w-[240px] 2xl:w-[260px]" />
                         ))
                     }
                 </div>
-                <img src="/img/niño-visorconfondo.png" alt="niño con vinocular" className="w-[250px] min-[450px]:w-[300px] absolute -bottom-30 -ml-20" />
+                <img src="/img/niño-visorconfondo.png" alt="niño con vinocular" className="w-[250px] min-[450px]:w-[300px] lg:w-[350px] 2xl:w-[380px] absolute -bottom-30 -ml-20" />
             </section >
             <div className="w-full pt-7 pb-10 flex items-center justify-center bg-[url('/img/papel.webp')] bg-center bg-cover relative">
                 <div className="flex justify-center hover:scale-[102%] duration-300">

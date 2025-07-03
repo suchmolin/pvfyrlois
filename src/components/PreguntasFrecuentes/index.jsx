@@ -19,40 +19,43 @@ export default function PreguntasFrecuentes() {
             ans: "Además de las ganas de divertirse y aprender, no es necesario traer nada adicional para vivir esta increíble experiencia."
         },
     ]
+    const imgSize = "w-[40px] lg:w-[60px]"
+    const boxStyle = "w-[100px] min-[440px]:w-[130px] lg:w-[160px] xl:w-[180px] flex flex-col items-center py-2 justify-center rounded-md"
+    const textStyle = "text-center text-white font-bold text-xs min-[440px]:text-sm lg:text-base"
     return (
-        <section id="faq" className="w-full bg-amarillo flex flex-col items-center py-10 relative">
+        <section id="faq" className="w-full bg-amarillo flex flex-col items-center py-10 xl:py-15 relative">
 
             <div className="relative pl-10 pr-5 py-3">
                 <img src="/img/formablanca.webp" alt="fondo naranja" className="absolute top-0 left-0 w-full h-full" />
-                <h2 className="text-azul font-lato-bold text-lg min-[360px]:text-xl min-[420px]:text-2xl text-center z-10 relative">PREGUNTAS FRECUENTES</h2>
-                <img src="/img/carapersonajeaventura.webp" alt="fondo naranja" className="absolute -top-5 -left-5 w-[50px] min-[420px]:w-[55px]" />
+                <h2 className="text-azul font-lato-bold text-lg min-[360px]:text-xl min-[420px]:text-2xl lg:text-4xl text-center z-10 relative">PREGUNTAS FRECUENTES</h2>
+                <img src="/img/carapersonajeaventura.webp" alt="fondo naranja" className="absolute -top-5 -left-5 w-[50px] min-[420px]:w-[55px] lg:w-[60px]" />
             </div>
             <div className="w-full flex gap-2 justify-center py-7">
-                <div className="w-[100px] min-[440px]:w-[130px] flex flex-col items-center py-2 justify-center rounded-md bg-azul">
-                    <img src="/img/niveles.webp" alt="nivel de ingles" className="w-[40px]" />
-                    <p className="text-center text-white font-bold text-xs min-[440px]:text-sm">Nivel de inglés</p>
+                <div className={`${boxStyle} bg-azul`}>
+                    <img src="/img/niveles.webp" alt="nivel de ingles" className={imgSize} />
+                    <p className={textStyle}>Nivel de inglés</p>
                 </div>
-                <div className="w-[100px] min-[440px]:w-[130px] flex flex-col items-center py-2 justify-center rounded-md bg-naranja">
-                    <img src="/img/marcocomuneuropeoblanco.webp" alt="nivel de ingles" className="w-[40px]" />
-                    <p className="text-center text-white font-bold text-xs min-[440px]:text-sm">Metodología</p>
+                <div className={`${boxStyle} bg-naranja`}>
+                    <img src="/img/marcocomuneuropeoblanco.webp" alt="nivel de ingles" className={imgSize} />
+                    <p className={textStyle}>Metodología</p>
                 </div>
-                <div className="w-[100px] min-[440px]:w-[130px] flex flex-col items-center py-2 justify-center rounded-md bg-verde">
-                    <img src="/img/requisitos.webp" alt="nivel de ingles" className="w-[40px]" />
-                    <p className="text-center text-white font-bold text-xs min-[440px]:text-sm">Requisitos</p>
+                <div className={`${boxStyle} bg-verde`}>
+                    <img src="/img/requisitos.webp" alt="nivel de ingles" className={imgSize} />
+                    <p className={textStyle}>Requisitos</p>
                 </div>
             </div>
             <div className="w-full flex justify-center">
 
-                <div className="w-[300px] min-[360px]:w-[330px] min-[430px]:w-[400px] flex flex-col">
+                <div className="w-[300px] min-[360px]:w-[330px] min-[430px]:w-[400px] lg:w-[510px] xl:w-[600px] flex flex-col">
                     {
                         preguntas.map(ask => (
-                            <div key={ask.id}>
+                            <div key={ask.id} className=" text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                                 <div
                                     className="rounded-lg bg-gray-100 py-3 px-5 flex gap-5 cursor-pointer mb-5"
                                     onClick={() => setSelected(selected === ask.id ? -1 : ask.id)}
                                 >
                                     <div className="font-bold text-xl select-none">{selected === ask.id ? "-" : "+"}</div>
-                                    <p className="text-azul text-lg">{ask.ask}</p>
+                                    <p className="text-azul">{ask.ask}</p>
                                 </div>
                                 <div
                                     className={`bg-white overflow-hidden transition-all duration-300 ${selected === ask.id ? "h-fit py-3 px-5 mb-5" : "h-0 p-0 mb-0"}`}

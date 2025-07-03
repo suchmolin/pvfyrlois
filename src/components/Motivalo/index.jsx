@@ -2,7 +2,7 @@ import Aniversary from "../Aniversary";
 
 export default function Motivalo() {
     return (
-        <section id="conocenos" className="w-full">
+        <section id="conocenos" className="w-full flex flex-col items-center">
             <div className="pt-10 bg-[url('/img/rayasgrisesfondo.webp')] bg-center bg-cover">
                 <div className="flex justify-center mb-7">
                     <div className="relative p-3 w-fit">
@@ -15,7 +15,7 @@ export default function Motivalo() {
                     </div>
                 </div>
             </div>
-            <div className="w-full bg-white px-4 text-azul font-eastman-bold text-sm">
+            <div className="w-full md:w-[700px] lg:w-[900px] xl:w-[1100px] bg-white px-4 text-azul font-eastman-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">
                 Somos una empresa americana con más de <span className="text-naranja">2 décadas enseñando idiomas alrededor del mundo. </span>
                 <br />
                 <br />

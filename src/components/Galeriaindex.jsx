@@ -48,23 +48,23 @@ export default function Galeria() {
     return (
         <section className="w-full bg-[url('/img/rayasgrisesfondo.webp')] bg-center bg-contain py-10 overflow-hidden">
             <div className="w-full px-5 py-5 flex flex-col items-center bg-gray-100  pb-10">
-                <h2 className="text-azul font-eastman-bold text-2xl">Un <span className="text-naranja italic">Summer</span> para disfrutar</h2>
+                <h2 className="text-azul font-eastman-bold text-2xl lg:text-3xl xl:text-4xl  mb-5">Un <span className="text-naranja italic">Summer</span> para disfrutar</h2>
                 <div className=" w-full flex justify-center slider-container">
-                    <Slider {...settings} className="w-[370px] h-fit">
+                    <Slider {...settings} className="w-[370px] sm:w-[630px] lg:w-[950px] xl:w-[1150px] h-fit">
                         {
                             galeria.map(gal => (
                                 <div key={gal[0]}>
-                                    <div className="w-full flex justify-center gap-4">
-                                        <div className="w-5/12 rounded-md overflow-hidden  bg-gray-200">
-                                            <img src={gal[0]} alt="iamgen de galeria" />
+                                    <div className="w-full flex justify-center gap-2">
+                                        <div className="w-6/12 rounded-md overflow-hidden  bg-gray-200 relative">
+                                            <img src={gal[0]} alt="iamgen de galeria" className="h-full" />
                                         </div>
-                                        <div className="w-7/12 flex flex-col gap-4">
+                                        <div className="w-6/12 flex flex-col gap-4">
 
-                                            <div className="h-[140px] rounded-md overflow-hidden bg-gray-200">
-                                                <img src={gal[1]} alt="imagen de galeria" />
+                                            <div className="h-1/2 rounded-md overflow-hidden bg-gray-200">
+                                                <img src={gal[1]} alt="imagen de galeria" className="h-full" />
                                             </div>
-                                            <div className="h-[140px] rounded-md overflow-hidden  bg-gray-200">
-                                                <img src={gal[2]} alt="imagen de galeria" />
+                                            <div className="h-1/2 rounded-md overflow-hidden  bg-gray-200">
+                                                <img src={gal[2]} alt="imagen de galeria" className="h-full" />
                                             </div>
                                         </div>
 

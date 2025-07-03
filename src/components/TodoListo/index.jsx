@@ -1,6 +1,9 @@
 import { FiArrowRightCircle } from "react-icons/fi";
 
 export default function TodoListo() {
+    const textSize = "w-[200px] min-[350px]:w-[250px] md:w-[350px] lg:w-[420px] relative text-xs min-[350px]:text-sm md:text-base lg:text-lg xl:text-xl"
+    const iconBox = "w-[75px] md:w-fit flex  flex-wrap gap-1 relative"
+    const iconSize = "w-[30px] min-[350px]:w-[35px] md:w-[45px] lg:w-[55px] xl:w-[65px] md:mr-2 aspect-square"
     return (
         <section id="tematicas" className="w-full flex flex-col items-center">
             <h2 className="text-center text-lg text-azul">¡Todo listo para que tu hijo viva <br />
@@ -22,9 +25,9 @@ export default function TodoListo() {
                     </a>
                 </div>
             </div>
-            <div id="exploracion" className="w-full py-10 flex gap-4 justify-center items-center relative text-white">
+            <div id="exploracion" className="w-full py-10 lg:py-15 flex gap-4 justify-center items-center relative text-white">
                 <img src="/img/exploracionfondo.webp" alt="figura de fondo para exploracion" className="w-full h-full absolute top-0 left-0" />
-                <div className="w-[200px] min-[350px]:w-[250px] relative text-xs min-[350px]:text-sm">
+                <div className={textSize}>
                     <h3 className="font-bold">EXPLORACIÓN</h3>
                     <div>
 
@@ -33,16 +36,16 @@ export default function TodoListo() {
                         </p>
                     </div>
                 </div>
-                <div className="w-[75px] flex flex-wrap gap-1 relative">
-                    <img src="/img/globo.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/franjas.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/montannas.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/linterna.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
+                <div className={iconBox}>
+                    <img src="/img/globo.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/franjas.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/montannas.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/linterna.webp" alt="globo terraqueo" className={iconSize} />
                 </div>
             </div>
-            <div id="deporte" className="w-full py-10 flex gap-4 justify-center items-center relative text-azul">
+            <div id="deporte" className="w-full py-10 lg:py-15 flex gap-4 justify-center items-center relative text-azul">
                 <img src="/img/deportefondo.webp" alt="figura de fondo para exploracion" className="w-full h-full absolute top-0 left-0" />
-                <div className="w-[200px] min-[350px]:w-[250px] relative text-xs min-[350px]:text-sm">
+                <div className={textSize}>
                     <h3 className="font-bold">DEPORTE</h3>
                     <div>
                         <p>
@@ -52,16 +55,16 @@ export default function TodoListo() {
                         </p>
                     </div>
                 </div>
-                <div className="w-[75px] flex flex-wrap gap-1 relative">
-                    <img src="/img/escudoe.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/control.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/virtual.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/corona.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
+                <div className={iconBox}>
+                    <img src="/img/escudoe.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/control.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/virtual.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/corona.webp" alt="globo terraqueo" className={iconSize} />
                 </div>
             </div>
-            <div id="tecnologia" className="w-full py-10 flex gap-4 justify-center items-center relative text-azul">
+            <div id="tecnologia" className="w-full py-10 lg:py-15 flex gap-4 justify-center items-center relative text-azul">
                 <img src="/img/tecnologiafondo.webp" alt="figura de fondo para exploracion" className="w-full h-full absolute top-0 left-0" />
-                <div className="w-[200px] min-[350px]:w-[250px] relative text-xs min-[350px]:text-sm">
+                <div className={textSize}>
                     <h3 className="font-bold">TECNOLOGÍA</h3>
                     <div>
                         <p>
@@ -71,16 +74,16 @@ export default function TodoListo() {
                         </p>
                     </div>
                 </div>
-                <div className="w-[75px] flex flex-wrap gap-1 relative">
-                    <img src="/img/ia.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/virtual.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/planeta.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/manorobotica.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
+                <div className={iconBox}>
+                    <img src="/img/ia.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/virtual.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/planeta.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/manorobotica.webp" alt="globo terraqueo" className={iconSize} />
                 </div>
             </div>
-            <div id="conoceciudad" className="w-full py-10 flex gap-4 justify-center items-center relative text-white">
+            <div id="conoceciudad" className="w-full py-10 lg:py-15 flex gap-4 justify-center items-center relative text-white">
                 <img src="/img/conoceciudadfondo.webp" alt="figura de fondo para exploracion" className="w-full h-full absolute top-0 left-0" />
-                <div className="w-[200px] min-[350px]:w-[250px] relative text-xs min-[350px]:text-sm">
+                <div className={textSize}>
                     <h3 className="font-bold">CONOCE LA CIUDAD</h3>
                     <div>
 
@@ -90,16 +93,16 @@ export default function TodoListo() {
 
                     </div>
                 </div>
-                <div className="w-[75px] flex flex-wrap gap-1 relative">
-                    <img src="/img/globo.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/formas.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/lupa.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
-                    <img src="/img/monumento.webp" alt="globo terraqueo" className="w-[30px] min-[350px]:w-[35px] aspect-square" />
+                <div className={iconBox}>
+                    <img src="/img/globo.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/formas.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/lupa.webp" alt="globo terraqueo" className={iconSize} />
+                    <img src="/img/monumento.webp" alt="globo terraqueo" className={iconSize} />
                 </div>
             </div>
             <div className="w-full pt-15 pb-10 flex items-center justify-center bg-[url('/img/papel.webp')] bg-center bg-cover -mt-5">
                 <div className="flex justify-center hover:scale-[102%] duration-300">
-                    <a href="#" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
+                    <a href="#" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl lg:text-3xl xl:text-4xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
                         <span className="text-white text-4xl"><FiArrowRightCircle /></span>
                         <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
                         <span className="-mt-1">¡INSCRÍBELO AQUÍ!</span>
