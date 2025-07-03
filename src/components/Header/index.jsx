@@ -4,11 +4,12 @@ import logo2 from "/public/img/logo2.png";
 import fondoNaranja from "/public/img/fondoNaranja.webp";
 import ninoHeader from "/public/img/ninoHeader.png";
 import formaAmarilla from "/public/img/formaAmarilla.webp";
+import formaAmarillaPC from "/public/img/franjaPC.webp";
 export default function Header() {
 
     return (
         <section id="inicio" className="w-full bg-[url('/img/cieloFondo.png')] bg-cover bg-center bg-no-repeat pt-10 flex flex-col md:flex-row items-center md:items-end relative justify-start md:justify-center">
-            <div className="flex flex-col w-fit items-center pb-0 md:pb-20">
+            <div className="flex flex-col w-fit items-center pb-0 md:pb-20 xl:pb-30">
                 <img src={logo2} alt="logo summjer Fyr Lois" className="w-[400px] xl:w-[500px] h-auto" />
                 <h1 className="text-azul text-3xl xl:text-4xl text-center font-eastman-bold mb-5">¡Dale a tu hijo una <br /> experiencia única!</h1>
                 <div className="relative px-5 py-3">
@@ -25,6 +26,7 @@ export default function Header() {
             </div>
             <img src={ninoHeader} alt="Niño feliz yendo al plan vacacional de Fyr lois para aprender con clases 100% en ingles" className="w-[300px] md:w-[450px] lg:w-[550px] 2xl:w-[600px] h-auto relative" />
             <img src={formaAmarilla} alt="forma amarilla divisor de seccion" className="w-full absolute bottom-0 block sm:hidden" />
+            <img src={formaAmarillaPC} alt="forma amarilla divisor de seccion" className="w-full absolute bottom-0 hidden sm:block" />
         </section>
     )
 

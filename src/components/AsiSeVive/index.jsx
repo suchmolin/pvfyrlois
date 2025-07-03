@@ -1,27 +1,56 @@
 import { useState } from "react"
 import { FiArrowRightCircle } from "react-icons/fi"
+import { useRef } from "react"
 
 export default function AsiSeVive() {
     const [selected, setSelected] = useState(1)
     const videos = [
         {
             id: 0,
-            url: "",
+            url: "/img/padre1.mp4",
             poster: "",
         },
         {
             id: 1,
-            url: "",
+            url: "/img/madreehijo.mp4",
             poster: "",
         },
         {
             id: 2,
-            url: "",
+            url: "/img/madre1.mp4",
             poster: "",
         },
     ]
-    const widthUnsel = "w-[60px] min-[410px]:w-[80px] min-[500px]:w-[100px]"
-    const widthSel = "w-[160px] min-[410px]:w-[200px] min-[500px]:w-[250px]"
+    const widthUnsel = "w-[60px] min-[410px]:w-[80px] min-[500px]:w-[100px] md:w-[150px] lg:w-[170px] xl:w-[190px]"
+    const widthSel = "w-[160px] min-[410px]:w-[200px] min-[500px]:w-[220px] md:w-[260px] lg:w-[280px] xl:w-[310px]"
+
+    // Refs para controlar los videos
+    const videoRefs = useRef([])
+
+    // Función para manejar la selección y reproducción/pausa
+    const handleSelect = (id) => {
+        if (selected === id) {
+            // Si el video ya está seleccionado, ponerle pausa
+            const idx = videos.findIndex(vid => vid.id === id)
+            const ref = videoRefs.current[idx]
+            if (ref) {
+                ref.pause()
+            }
+            return
+        }
+        setSelected(id)
+        videos.forEach((vid, idx) => {
+            const ref = videoRefs.current[idx]
+            if (ref) {
+                if (vid.id === id) {
+                    ref.play()
+                } else {
+                    ref.pause()
+                    ref.currentTime = 0
+                }
+            }
+        })
+    }
 
     return (
         <section className="w-full flex flex-col items-center pt-10 pb-5">
@@ -31,16 +60,21 @@ export default function AsiSeVive() {
             </div>
             <div className="w-full flex justify-center gap-3 py-10">
                 {
-                    videos.map(vid => (
-                        <div
-                            onClick={() => setSelected(vid.id)} key={`video${vid.id}`}
-                            className={`rounded-md h-[250px] min-[410px]:h-[300px] min-[500px]:h-[400px] bg-gray-100 cursor-pointer duration-300 ${vid.id == selected ? widthSel : widthUnsel}`}>
+                    videos.map((vid, idx) => (
+                        <div key={`video${vid.id}`}
+                            className={`rounded-md h-[250px] min-[410px]:h-[300px] min-[500px]:h-[400px] md:h-[500px] xl:h-[650px] bg-gray-100 cursor-pointer duration-300 overflow-hidden relative ${vid.id == selected ? widthSel : widthUnsel}`}>
 
+                            <video
+                                ref={el => videoRefs.current[idx] = el}
+                                src={vid.url}
+                                poster={vid.poster}
+                                onClick={() => handleSelect(vid.id)}
+                                className="h-full w-full object-cover absolute"
+                            >
+                            </video>
                         </div>
-
                     ))
                 }
-
             </div>
 
             <div className="flex justify-center hover:scale-[102%] duration-300">
@@ -50,9 +84,6 @@ export default function AsiSeVive() {
                     <span className="-mt-1">QUIERO INSCRIBIR A MI HIJO</span>
                 </a>
             </div>
-
-
-
         </section>
     )
 }
