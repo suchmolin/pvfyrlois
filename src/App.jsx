@@ -11,6 +11,7 @@ import Motivalo from './components/Motivalo'
 import Navbar from './components/Navbar'
 import PreguntasFrecuentes from './components/PreguntasFrecuentes'
 import QueObtiene from './components/QueObtiene'
+import Reviews from './components/Reviews'
 import Sumergelo from './components/Sumergelo'
 import Summer2025 from './components/Summer2025'
 import TodoListo from './components/TodoListo'
@@ -32,6 +33,7 @@ function App() {
       <AsiSeVive />
       <Sumergelo />
       <UnPlanVacaional />
+      <Reviews />
       <AprovechaPreventa />
       <PreguntasFrecuentes />
       <Contactanos />

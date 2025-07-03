@@ -35,19 +35,19 @@ export default function Contador() {
         <div className="pb-5 pt-2 flex gap-3 text-3xl xl:text-4xl">
             <div className="bg-white text-azul flex flex-col items-center justify-center  font-lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{days}</p>
-                <p className="text-xs font-lato-black">Days</p>
+                <p className="text-xs font-eastman-bold">Days</p>
             </div>
             <div className="bg-white text-azul flex flex-col items-center justify-center  font-lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{hours}</p>
-                <p className="text-xs font-lato-black">Hours</p>
+                <p className="text-xs font-eastman-bold">Hours</p>
             </div>
             <div className="bg-white text-azul flex flex-col items-center justify-center  font-lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{minutes}</p>
-                <p className="text-xs font-lato-black">Minutes</p>
+                <p className="text-xs font-eastman-bold">Minutes</p>
             </div>
             <div className="bg-white text-azul flex flex-col items-center justify-center  font-lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{seconds}</p>
-                <p className="text-xs font-lato-black">Seconds</p>
+                <p className="text-xs font-eastman-bold">Seconds</p>
             </div>
         </div>
     )

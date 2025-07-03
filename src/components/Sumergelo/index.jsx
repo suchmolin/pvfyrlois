@@ -18,7 +18,7 @@ export default function Sumergelo() {
                 <div className="relative pr-4 pl-15 py-3 w-[270px] min-[370px]:w-[300px] min-[430px]:w-[350px] min-[470px]:w-[400px]">
                     <img src="/img/formablanca.webp" alt="fondo blanco" className="absolute top-0 left-0 w-full h-full" />
                     <img src="/img/carapersonajedeporte.webp" alt="cara personaje de deporte" className="absolute -top-5 min-[370px]:-top-9 -left-8 w-[90px]" />
-                    <h2 className="text-azul font-lato-bold text-sm min-[520px]:text-base z-10 relative ">Podrá disfrutar de cada temática y aprender de
+                    <h2 className="text-azul font-eastman-bold text-sm min-[520px]:text-base z-10 relative ">Podrá disfrutar de cada temática y aprender de
                         manera distinta, en un espacio seguro para conocer {" "}
                         < b > su lado más explorador.</b>
                     </h2>

@@ -71,7 +71,10 @@ export default function UnPlanVacaional() {
                                 </h3>
                                 <div className="hidden sm:block w-[600px]"></div>
                                 <img src={card.img} alt={`image for ${card.title}`} className={`hidden sm:block ${card.width}  absolute bottom-0`} />
-                                <p className="text-center  sm:text-start text-sm sm:text-base"><b>{card.textBold}</b>{card.text}</p>
+                                <p className="text-center  sm:text-start text-base sm:text-lg font-lato">
+                                    <span className="font-lato-bold">{card.textBold}</span>
+                                    {card.text}
+                                </p>
                             </div>
                         </div>
 

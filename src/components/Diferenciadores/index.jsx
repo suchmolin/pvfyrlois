@@ -1,5 +1,5 @@
 export default function Diferenciadores() {
-    const square = "w-[40px] sm:w-[60px] lg:w-[80px] 2xl:w-[100px] aspect-square"
+    const square = "w-[40px] sm:w-[60px] lg:w-[80px] 2xl:w-[100px] h-fit"
     return (
         <div className="w-full flex justify-center text-azul font-eastman-bold text-md
              min-[400px]:text-xl min-[460px]:text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl mt-5">

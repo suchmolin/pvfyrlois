@@ -11,7 +11,7 @@ export default function Caracteristicas() {
             <h2 className="text-azul text-xl min-[380px]:text-2xl sm:text-3xl md:text-4xl  xl:text-5xl 2xl:text-6xl text-center mt-7">
                 ¡UN VERANO LLENO DE
                 <br />
-                <span className="font-lato-black font-bold">AVENTURAS SORPRENDENTES!</span>
+                <span className="font-eastman-bold font-bold">AVENTURAS SORPRENDENTES!</span>
             </h2>
             <Diferenciadores />
             <Horas />
@@ -23,7 +23,7 @@ export default function Caracteristicas() {
                     <img src="/img/fondohorario.webp" alt="fondo horario" className="w-full h-full absolute top-0 left-0" />
                     <div className="text-azul text-nowrap text-base min-[360px]:text-lg min-[395px]:text-xl min-[480px]:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-eastman-bold relative flex items-center justify-center gap-2">
                         9:00 - 12:00 P.M.
-                        <div className="w-[1px] h-[15px] bg-azul"></div>
+                        <div className="w-[2px] h-[20px] bg-azul mt-1"></div>
                         3:00 - 6:00 P.M.
                     </div>
                 </div>
@@ -32,13 +32,13 @@ export default function Caracteristicas() {
                 <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
                     <span className="text-white text-4xl"><FiArrowRightCircle /></span>
                     <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
-                    <span className="-mt-1">RESERVA SU CUPO AHORA</span>
+                    <span className="">RESERVA SU CUPO AHORA</span>
                 </a>
             </div>
 
             <div className="flex justify-center -mb-8 relative">
-                <img src="/img/amarrillo.webp" alt="personaje Fyr Lois amarillo" className="w-[200px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute lg:-bottom-40 -left-5 h-auto" />
-                <img src="/img/verde.webp" alt="personaje Fyr Lois amarillo" className="w-[180px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute lg:-bottom-40 -right-15 h-auto" />
+                <img src="/img/amarrillo.webp" alt="personaje Fyr Lois amarillo" className="w-[200px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute -bottom-10 lg:-bottom-40 -left-5 h-fit" />
+                <img src="/img/verde.webp" alt="personaje Fyr Lois amarillo" className="w-[180px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute lg:-bottom-40 -right-15 h-fit" />
             </div>
         </section>
     )

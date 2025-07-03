@@ -13,7 +13,7 @@ export default function QueObtiene() {
                     </div>
                 </div>
                 <div className="w-full flex justify-center py-7">
-                    <div className="flex flex-col md:flex-row md:flex-wrap md:gap-3 text-4xl min-[390px]:text-6xl lg:text-7xl font-lato-bold items-end pr-3 gap-3 text-white w-[320px] min-[390px]:w-[390px] md:w-full md:justify-center md:gap-y-5">
+                    <div className="flex flex-col md:flex-row md:flex-wrap md:gap-3 text-4xl min-[390px]:text-6xl lg:text-7xl font-eastman-bold items-end pr-3 gap-3 text-white w-[320px] min-[390px]:w-[390px] md:w-full md:justify-center md:gap-y-5">
                         <div className="flex items-center">
                             <div className="h-18 w-[60px] min-[390px]:w-[80px] lg:w-[100px] justify-end pr-3 flex items-center">4</div>
                             <div className="rounded-md bg-naranja py-2 px-3 text-azul h-18 w-[250px] min-[390px]:w-[280px] lg:w-[320px] flex items-center">

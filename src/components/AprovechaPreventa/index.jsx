@@ -14,11 +14,11 @@ export default function AprovechaPreventa() {
                 <h2 className="text-azul text-2xl min-[400px]:text-3xl md:text-4xl font-eastman-bold text-center leading-3">¡Aprovecha nuestra <span className="text-white text-4xl min-[400px]:text-5xl md:text-6xl block">preventa!</span></h2>
 
                 <div className="flex flex-col items-center justify-center hover:scale-[102%] duration-300 py-7">
-                    <div className="w-full flex justify-center -mb-3">
-                        <img src="/img/rosa.webp" alt="/img/rosa.webp" className={imgSize + " z-10"} />
-                        <img src="/img/amarrillo.webp" alt="/img/amarrillo.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15"} />
-                        <img src="/img/verde.webp" alt="/img/verde.webp" className={imgSize + " z-10 -ml-7 sm:-ml-15 md:-ml-15"} />
-                        <img src="/img/naranja.webp" alt="/img/naranja.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15"} />
+                    <div className="w-full flex justify-center items-end -mb-3">
+                        <img src="/img/rosa.webp" alt="/img/rosa.webp" className={imgSize + " z-10 h-fit"} />
+                        <img src="/img/amarrillo.webp" alt="/img/amarrillo.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15 h-fit"} />
+                        <img src="/img/verde.webp" alt="/img/verde.webp" className={imgSize + " z-10 -ml-7 sm:-ml-15 md:-ml-15 h-fit"} />
+                        <img src="/img/naranja.webp" alt="/img/naranja.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15 h-fit"} />
                     </div>
                     <a href="#contacto" className="flex text-white text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl  font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 lg:px-7 rounded-md mb-5 w-fit z-10">
                         <span className="text-white text-4xl lg:text-5xl"><FiArrowRightCircle /></span>

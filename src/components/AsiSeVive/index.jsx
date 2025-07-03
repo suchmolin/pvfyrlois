@@ -56,7 +56,7 @@ export default function AsiSeVive() {
         <section className="w-full flex flex-col items-center pt-10 pb-5">
             <div className="relative px-5 py-3">
                 <img src="/img/formaverde.webp" alt="fondo naranja" className="absolute top-0 left-0 w-full h-full" />
-                <h2 className="text-white font-lato-bold text-2xl min-[400px]:text-3xl text-center z-10 relative text-nowrap">¡ASÍ SE VIVE LA<br /><span className="text-azul">EXPERIENCIA FYR LOIS!</span></h2>
+                <h2 className="text-white font-eastman-bold text-2xl min-[400px]:text-3xl text-center z-10 relative text-nowrap">¡ASÍ SE VIVE LA<br /><span className="text-azul">EXPERIENCIA FYR LOIS!</span></h2>
             </div>
             <div className="w-full flex justify-center gap-3 py-10">
                 {

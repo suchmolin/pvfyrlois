@@ -27,7 +27,7 @@ export default function PreguntasFrecuentes() {
 
             <div className="relative pl-10 pr-5 py-3">
                 <img src="/img/formablanca.webp" alt="fondo naranja" className="absolute top-0 left-0 w-full h-full" />
-                <h2 className="text-azul font-lato-bold text-lg min-[360px]:text-xl min-[420px]:text-2xl lg:text-4xl text-center z-10 relative">PREGUNTAS FRECUENTES</h2>
+                <h2 className="text-azul font-eastman-bold text-lg min-[360px]:text-xl min-[420px]:text-2xl lg:text-4xl text-center z-10 relative">PREGUNTAS FRECUENTES</h2>
                 <img src="/img/carapersonajeaventura.webp" alt="fondo naranja" className="absolute -top-5 -left-5 w-[50px] min-[420px]:w-[55px] lg:w-[60px]" />
             </div>
             <div className="w-full flex gap-2 justify-center py-7">
