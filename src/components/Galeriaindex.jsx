@@ -2,6 +2,44 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <img
+            src="/img/flechasdobles.webp"
+            alt="Siguiente"
+            className={`${className} hover:scale-[115%] duration-300 aspect-square`}
+            style={{
+                ...style,
+                display: "block",
+                zIndex: 2,
+                transform: "rotate(0deg)",
+                cursor: "pointer"
+            }}
+            onClick={onClick}
+        />
+    );
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <img
+            src="/img/flechasdobles.webp"
+            alt="Anterior"
+            className={`${className} hover:scale-[115%] duration-300 aspect-square`}
+            style={{
+                ...style,
+                display: "block",
+                zIndex: 2,
+                transform: "rotate(180deg)",
+                cursor: "pointer"
+            }}
+            onClick={onClick}
+        />
+    );
+}
+
 export default function Galeria() {
     const galeria = [
         [
@@ -43,7 +81,9 @@ export default function Galeria() {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        cssEase: "linear"
+        cssEase: "linear",
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
     };
     return (
         <section className="w-full bg-[url('/img/rayasgrisesfondo.webp')] bg-center bg-contain py-10 overflow-hidden">

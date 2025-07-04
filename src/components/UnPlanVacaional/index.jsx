@@ -3,7 +3,8 @@ import { FiArrowRightCircle } from "react-icons/fi"
 export default function UnPlanVacaional() {
     const cards = [
         {
-            title: "KIDS: 3-5 AÑOS",
+            title: "KIDS: ",
+            age: "3-5 ",
             titleColor: "#001A70",
             icon: "/img/rosa.webp",
             img: "/img/nina.png",
@@ -14,7 +15,8 @@ export default function UnPlanVacaional() {
             point: "#FFD700",
         },
         {
-            title: "ELEMENTARY: 6–11 AÑOS",
+            title: "ELEMENTARY: ",
+            age: "6–11 ",
             titleColor: "#97D700",
             icon: "/img/naranja.webp",
             img: "/img/nino.png",
@@ -26,7 +28,8 @@ export default function UnPlanVacaional() {
             point: "#001A70",
         },
         {
-            title: "HIGH SCHOOL: 12–16 AÑOS",
+            title: "HIGH SCHOOL: ",
+            age: "12–16 ",
             titleColor: "#001A70",
             icon: "/img/verde.webp",
             img: "/img/adolecente.png",
@@ -61,13 +64,13 @@ export default function UnPlanVacaional() {
                                 <img src={card.img} alt={`image for ${card.title}`} className={`block sm:hidden ${card.width} h-fit`} />
                                 <h3 style={{ color: card.titleColor }} className={`hidden sm:flex items-center gap-1 font-bold`}>
                                     <span style={{ backgroundColor: card.point }} className="hidden sm:block w-[12px] h-[12px] rounded-full mt-1"></span>
-                                    {card.title}
+                                    {card.title} <span className="font-lemon -mt-1">{card.age}</span> AÑOS
                                 </h3>
                             </div>
                             <div style={{ backgroundColor: card.bg }} className={`relative  w-11/12 rounded-lg py-3 px-5 text-white sm:flex sm:items-center`}>
                                 <h3 style={{ color: card.titleColor }} className={`flex items-center gap-1 font-bold sm:hidden`}>
                                     <span className="w-[8px] h-[8px] bg-white rounded-full mt-1"></span>
-                                    {card.title}
+                                    {card.title} <span className="font-lemon -mt-1">{card.age}</span> AÑOS
                                 </h3>
                                 <div className="hidden sm:block w-[600px]"></div>
                                 <img src={card.img} alt={`image for ${card.title}`} className={`hidden sm:block ${card.width}  absolute bottom-0`} />

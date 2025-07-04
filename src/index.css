@@ -1,10 +1,10 @@
 @font-face{
   font-family: eastman;
-  src: url("/fonts/Eastman-Regular.ttf")
+  src: url("/fonts/EastmanRomanTrial-Regular.otf")
 }
 @font-face{
   font-family: eastman-bold;
-  src: url("/fonts/Eastman-Bold.ttf")
+  src: url("/fonts/EastmanRomanTrial-Bold.otf")
 }
 @font-face{
   font-family: eastman-black;

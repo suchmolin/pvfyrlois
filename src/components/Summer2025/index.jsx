@@ -7,9 +7,9 @@ export default function Summer2025() {
                 </div>
                 <div className="flex gap-3 h-full md:-ml-10">
                     <div className=" w-[4px] rounded-lg bg-white"></div>
-                    <h2 className="text-white min-[370px]:text-lg min-[440px]:text-2xl lg:text-3xl font-eastman-bold text-nowrap">26 AÑOS BRINDANDO <br />
+                    <h2 className="text-white min-[370px]:text-lg min-[440px]:text-2xl lg:text-3xl font-eastman-bold text-nowrap"><span className="font-lemon-bold">26</span> AÑOS BRINDANDO <br />
                         EXPERIENCIAS INIGUALABLES <br />
-                        <span className="text-verde">100% EN INGLÉS</span>
+                        <span className="text-verde font-lemon-bold">100</span><span className="font-eastman-bold text-verde">% EN INGLÉS</span>
                     </h2>
                 </div>
             </section>

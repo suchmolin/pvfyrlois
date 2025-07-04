@@ -5,11 +5,11 @@ export default function Etapas() {
                 <div className="w-full flex flex-col items-center">
                     <div className="w-full flex gap-1 items-center justify-center mb-2 font-eastman-bold">
                         <div className="w-[18px] h-[18px] square bg-naranja rounded-full mt-2"></div>
-                        <p className="text-azul text-3xl">1era temporada</p>
+                        <p className="text-azul text-3xl"><span className="font-lemon-bold">1</span>era temporada</p>
                     </div>
-                    <div className="w-full text-white flex gap-2 justify-center bg-naranja text-[80px] 2xl:text-8xl leading-18 py-5 rounded-lg mb-5">
+                    <div className="w-full text-white flex gap-2 justify-center bg-naranja text-[80px] 2xl:text-8xl leading-22 py-5 rounded-lg mb-5">
                         <div>
-                            <p className="font-lato-black">21</p>
+                            <p className="font-lemon">21</p>
                             <p className="text-4xl">Jul</p>
                         </div>
                         -
@@ -23,7 +23,7 @@ export default function Etapas() {
                 <div className="w-full flex flex-col items-center">
                     <div className="w-full flex gap-1 items-center justify-center mb-2 font-eastman-bold">
                         <div className="w-[18px] h-[18px] square bg-rosa rounded-full mt-2"></div>
-                        <p className="text-azul text-3xl">2era temporada</p>
+                        <p className="text-azul text-3xl"><span className="font-lemon-bold">2</span>era temporada</p>
                     </div>
                     <div className="w-full text-white flex gap-2 justify-center bg-rosa text-[80px]  2xl:text-8xl leading-18 py-7 rounded-lg">
                         <div>

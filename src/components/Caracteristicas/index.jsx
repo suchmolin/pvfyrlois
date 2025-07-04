@@ -21,7 +21,7 @@ export default function Caracteristicas() {
             <div className="flex justify-center mb-7">
                 <div className="relative p-2 md:p-4 xl:p-6 w-fit">
                     <img src="/img/fondohorario.webp" alt="fondo horario" className="w-full h-full absolute top-0 left-0" />
-                    <div className="text-azul text-nowrap text-base min-[360px]:text-lg min-[395px]:text-xl min-[480px]:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-eastman-bold relative flex items-center justify-center gap-2">
+                    <div className="text-azul text-nowrap text-sm min-[360px]:text-base min-[395px]:text-lg min-[480px]:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-lemon-bold relative flex items-center justify-center gap-2">
                         9:00 - 12:00 P.M.
                         <div className="w-[2px] h-[20px] bg-azul mt-1"></div>
                         3:00 - 6:00 P.M.

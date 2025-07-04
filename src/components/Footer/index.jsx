@@ -20,11 +20,11 @@ export default function Footer() {
             </ul>
             <ul className="order-2 min-[385px]:order-0 ">
                 <li className="font-eastman-bold text-azul text-sm sm:text-base md:text-sm lg:text-base xl:text-lg">Contáctanos</li>
-                <li className={liStyle}><span className="w-[20px]"><HiOutlineDevicePhoneMobile className="text-white text-lg" /></span> 0212 959 3681 CCCT</li>
-                <li className={liStyle + " flex items-start"}><span className="w-[20px]"><TiLocationOutline className="text-white text-xl" /></span> (CCCT), nivel C2, Sector Yarey, local PB 005.
+                <li className={liStyle + "font-lemon"}><span className="w-[20px]"><HiOutlineDevicePhoneMobile className="text-white text-lg" /></span> 0212 959 3681 CCCT</li>
+                <li className={liStyle + " flex items-start font-lemon"}><span className="w-[20px]"><TiLocationOutline className="text-white text-xl" /></span> (CCCT), nivel C2, Sector Yarey, local PB 005.
                 </li>
             </ul>
-            <p className="absolute text-xs text-azul bottom-1 right-1">© 2025 Fyr lois. All Right Reserved.</p>
+            <p className="absolute text-xs text-azul bottom-1 right-1 font-lemon">© 2025 Fyr lois. All Right Reserved.</p>
         </footer>
     )
 }

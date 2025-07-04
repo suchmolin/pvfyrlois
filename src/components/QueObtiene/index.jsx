@@ -15,7 +15,7 @@ export default function QueObtiene() {
                 <div className="w-full flex justify-center py-7">
                     <div className="flex flex-col md:flex-row md:flex-wrap md:gap-3 text-4xl min-[390px]:text-6xl lg:text-7xl font-eastman-bold items-end pr-3 gap-3 text-white w-[320px] min-[390px]:w-[390px] md:w-full md:justify-center md:gap-y-5">
                         <div className="flex items-center">
-                            <div className="h-18 w-[60px] min-[390px]:w-[80px] lg:w-[100px] justify-end pr-3 flex items-center">4</div>
+                            <div className="h-18 w-[60px] min-[390px]:w-[80px] md:w-[120px]  justify-end pr-3 flex items-center font-lemon-bold">4</div>
                             <div className="rounded-md bg-naranja py-2 px-3 text-azul h-18 w-[250px] min-[390px]:w-[280px] lg:w-[320px] flex items-center">
                                 <p className={text}>
                                     Semanas de <span className="font-eastman-bold">temáticas increíbles</span>
@@ -23,7 +23,7 @@ export default function QueObtiene() {
                             </div>
                         </div>
                         <div className="flex items-center">
-                            <div className="h-18 w-[60px] min-[390px]:w-[80px] lg:w-[100px] justify-end pr-3 flex items-center">60</div>
+                            <div className="h-18 w-[60px] min-[390px]:w-[80px] md:w-[120px]  justify-end pr-3 flex items-center font-lemon-bold">60</div>
                             <div className="rounded-md bg-white py-2 px-3 text-azul h-18  w-[250px] min-[390px]:w-[280px] lg:w-[320px]">
                                 <p className={text}>
                                     Horas de <span className="font-eastman-bold">diversión y aprendizaje </span>
@@ -31,7 +31,7 @@ export default function QueObtiene() {
                             </div>
                         </div>
                         <div className="flex items-center">
-                            <div className="h-18 flex w-[60px] min-[390px]:w-[80px] lg:w-[100px] justify-end pr-3 items-center">
+                            <div className="h-18 flex w-[60px] min-[390px]:w-[80px] md:w-[120px]  justify-end pr-3 items-center md:p-7">
 
                                 <img src="/img/certificadoblanco.webp" alt="certificado en blanco" className="w-10/12 object-right h-fit" />
                             </div>
@@ -44,17 +44,17 @@ export default function QueObtiene() {
                             </div>
                         </div>
                         <div className="flex items-center">
-                            <div className="h-18  w-[60px] min-[390px]:w-[80px] lg:w-[100px] justify-end pr-3 flex items-center">
+                            <div className="h-18  w-[60px] min-[390px]:w-[80px]  md:w-[120px] justify-end pr-3 flex items-center  md:p-5">
                                 <img src="/img/comunicacion.webp" alt="certificado en blanco" className="w-10/12" />
                             </div>
                             <div className="rounded-md bg-white py-2 px-3 text-azul h-18  w-[250px] min-[390px]:w-[280px] lg:w-[320px]">
                                 <p className={text}>
-                                    Socialización <span className="font-eastman-bold">100% en inglés</span>
+                                    Socialización <span className="font-lemon-bold">100</span><span className="font-eastman-bold">% en inglés</span>
                                 </p>
                             </div>
                         </div>
                         <div className="flex items-center">
-                            <div className="h-18 w-[60px] min-[390px]:w-[80px] lg:w-[100px] justify-end pr-3 flex items-center">
+                            <div className="h-18 w-[60px] min-[390px]:w-[80px]  justify-end pr-3 flex items-center">
                                 <img src="/img/estrella.webp" alt="certificado en blanco" className="w-10/12" />
                             </div>
                             <div className="rounded-md bg-naranja py-2 px-3 text-azul h-18  w-[250px] min-[390px]:w-[280px] lg:w-[320px]">
