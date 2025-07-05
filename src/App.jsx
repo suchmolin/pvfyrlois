@@ -21,7 +21,7 @@ import WhatsappButton from './components/WhatsappButton'
 function App() {
 
   return (
-    <main className='w-full min-h-screen font-eastman overflow-hidden'>
+    <main className='w-full min-h-screen font-eastman overflow-hidden' lang="es" translate="no">
       <Navbar />
       <Header />
       <Caracteristicas />
@@ -40,8 +40,7 @@ function App() {
       <Footer />
 
       <WhatsappButton />
-
-    </main>
+    </main >
   )
 }
 
