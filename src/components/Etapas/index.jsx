@@ -23,7 +23,7 @@ export default function Etapas() {
                 <div className="w-full flex flex-col items-center">
                     <div className="w-full flex gap-1 items-center justify-center mb-2 font-eastman-bold">
                         <div className="w-[18px] h-[18px] square bg-rosa rounded-full mt-2"></div>
-                        <p className="text-azul text-3xl"><span className="font-lemon-bold">2</span>era temporada</p>
+                        <p className="text-azul text-3xl"><span className="font-lemon-bold">2</span>da temporada</p>
                     </div>
                     <div className="w-full text-white flex gap-2 justify-center bg-rosa text-[80px]  2xl:text-8xl leading-18 py-7 rounded-lg">
                         <div>

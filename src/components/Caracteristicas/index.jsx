@@ -29,7 +29,7 @@ export default function Caracteristicas() {
                 </div>
             </div>
             <div className="flex justify-center hover:scale-[102%] duration-300">
-                <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
+                <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-lg min-[430px]:text-xl sm:text-3xl md:text-4xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
                     <span className="text-white text-4xl"><FiArrowRightCircle /></span>
                     <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
                     <span className="">RESERVA SU CUPO AHORA</span>
@@ -37,8 +37,8 @@ export default function Caracteristicas() {
             </div>
 
             <div className="flex justify-center -mb-8 relative">
-                <img src="/img/amarrillo.webp" alt="personaje Fyr Lois amarillo" className="w-[200px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute -bottom-10 lg:-bottom-40 -left-5 h-fit" />
-                <img src="/img/verde.webp" alt="personaje Fyr Lois amarillo" className="w-[180px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute lg:-bottom-40 -right-15 h-fit" />
+                <img src="/img/amarrillo.webp" alt="personaje Fyr Lois amarillo" className="w-[200px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute -bottom-10 lg:-bottom-40 left-0 h-fit" />
+                <img src="/img/verde.webp" alt="personaje Fyr Lois amarillo" className="w-[180px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute lg:-bottom-40 right-0 h-fit" />
             </div>
         </section>
     )

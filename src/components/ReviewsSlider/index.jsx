@@ -25,7 +25,7 @@ function SamplePrevArrow(props) {
         <img
             src="/img/flechasdobles.webp"
             alt="Anterior"
-            className={`${className} hover:scale-[115%] duration-300 aspect-square`}
+            className={`${className}  hover:scale-[115%] duration-300 aspect-square`}
             style={{
                 ...style,
                 display: "block",

@@ -32,22 +32,22 @@ export default function Contador() {
     };
 
     return (
-        <div className="pb-5 pt-2 flex gap-3 text-3xl xl:text-4xl">
+        <div className="pb-5 pt-2 flex gap-3 3xl:gap-7 text-3xl xl:text-4xl 3xl:text-5xl">
             <div className="bg-white text-azul flex flex-col items-center justify-center  font-lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{days}</p>
-                <p className="text-xs font-eastman-bold">Days</p>
+                <p className="text-xs 3xl:text-sm font-eastman-bold">Days</p>
             </div>
             <div className="bg-white text-azul flex flex-col items-center justify-center  font-lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{hours}</p>
-                <p className="text-xs font-eastman-bold">Hours</p>
+                <p className="text-xs 3xl:text-sm font-eastman-bold">Hours</p>
             </div>
             <div className="bg-white text-azul flex flex-col items-center justify-center  font-lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{minutes}</p>
-                <p className="text-xs font-eastman-bold">Minutes</p>
+                <p className="text-xs 3xl:text-sm font-eastman-bold">Minutes</p>
             </div>
             <div className="bg-white text-azul flex flex-col items-center justify-center  font-lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{seconds}</p>
-                <p className="text-xs font-eastman-bold">Seconds</p>
+                <p className="text-xs 3xl:text-sm font-eastman-bold">Seconds</p>
             </div>
         </div>
     )

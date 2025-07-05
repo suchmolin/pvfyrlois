@@ -34,7 +34,7 @@ export default function Formulario() {
     return (
         <>
             <form id="myForm" onSubmit={(e) => handleSubmit(e)}
-                className="w-[250px] min-[430px]:w-[300px] sm:w-[360px] lg:w-[450px] rounded-2xl bg-[url('/img/fondoformulario.webp')] bg-center bg-cover py-7 px-3 min-[430px]:px-5 relative z-20 text-xs"
+                className="w-[250px] min-[430px]:w-[300px] sm:w-[360px] lg:w-[450px] rounded-2xl bg-[url('/img/fondoformulario.webp')] bg-center bg-cover py-7 px-3 min-[430px]:px-5 relative z-20 text-xs 2xl:scale-150 4xl:scale-[200%] 2xl:my-30 4xl:my-60"
             >
                 <div className="w-full mb-4 lg:mb-6">
                     <input type="text" name="name" placeholder="Nombre y Apellido"

@@ -1,6 +1,6 @@
 export default function Aniversary() {
     return (
-        <div className="py-10 bg-[url('/img/rayasgrisesfondo.webp')] bg-center bg-cover flex flex-col md:flex-row items-center overflow-hidden md:gap-4 md:justify-center font-lato-bold ">
+        <div className="py-10  flex flex-col md:flex-row items-center overflow-hidden md:gap-4 md:justify-center font-lato-bold 2xl:scale-130 2xl:my-10 3xl:scale-150 3xl:my-20 4xl:scale-200 4xl:my-30">
             <div className="w-[320px] min-[400px]:w-[360px] lg:w-[450px]  rounded-md overflow-hidden flex-col flex mb-5 md:mb-0">
                 <div className="w-full  h-[120px] lg:h-[140px] flex bg-gray-200 relative">
                     <div className="w-1/2 flex justify-center items-center py-5">

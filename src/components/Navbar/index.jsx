@@ -5,8 +5,8 @@ export default function Navbar() {
     const [open, setOpen] = useState(false)
     return (
         <>
-            <nav className="w-full h-[100px] bg-azul text-white flex justify-between items-center px-5 xl:px-20 relative">
-                <img src="/img/logo.webp" alt="logo Fyr Lois" className="w-[140px] h-auto" />
+            <nav className="w-full h-[100px] 3xl:h-[120px] bg-azul text-white flex justify-between items-center px-5 xl:px-20 relative">
+                <img src="/img/logo.webp" alt="logo Fyr Lois" className="w-[140px] 3xl:w-[170px] h-auto" />
                 <div>
                     <button onClick={() => setOpen(!open)} className="block sm:hidden cursor-pointer">
                         <MenuIcon />

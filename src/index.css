@@ -56,6 +56,9 @@
   --font-lemon: lemon;
   --font-lemon-bold: lemon-bold;
   --font-lemon-medium: lemon-medium;
+
+  --breakpoint-3xl: 105rem;
+  --breakpoint-4xl: 121rem;
 }
 
 *{
