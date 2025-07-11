@@ -1,4 +1,5 @@
 import { FiArrowRightCircle } from "react-icons/fi";
+import { checkoutHandler } from "../../utils/checkoutHandler";
 
 export default function AprovechaPreventa() {
     const imgSize = "w-[100px] min-[430px]:w-[110px] sm:w-[160px] md:w-[160px] lg:w-[190px] xl:w-[220px] 4xl:w-[250px]"
@@ -20,11 +21,11 @@ export default function AprovechaPreventa() {
                         <img src="/img/verde.webp" alt="/img/verde.webp" className={imgSize + " z-10 -ml-7 sm:-ml-15 md:-ml-15 h-fit"} />
                         <img src="/img/naranja.webp" alt="/img/naranja.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15 h-fit"} />
                     </div>
-                    <a href="#contacto" className="flex text-white text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl xl:text-5xl 4xl:text-6xl  font-eastman-bold items-center justify-center gap-2 bg-azul py-2 4xl:py-4 px-2 lg:px-7 rounded-md mb-5 w-fit z-10">
+                    <button onClick={() => checkoutHandler()} className="flex text-white text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl xl:text-5xl 4xl:text-6xl  font-eastman-bold items-center justify-center gap-2 bg-azul py-2 4xl:py-4 px-2 lg:px-7 rounded-md mb-5 w-fit z-10 cursor-pointer">
                         <span className="text-white text-4xl xl:text-6xl"><FiArrowRightCircle /></span>
                         <div className="h-8 3xl:h-12 w-[2px] 3xl:w-[3px] rounded-md bg-white">{" "}</div>
                         <span className="">OBTENER DESCUENTO</span>
-                    </a>
+                    </button>
                 </div>
             </section>
             <section className="w-full bg-azul text-white flex gap-1 items-center justify-center px-3 py-7 min-[385px]:py-10 xl:py-20 3xl:py-30 border-b-5 border-black relative">
