@@ -23,23 +23,23 @@ export default function PreguntasFrecuentes() {
     const boxStyle = "w-[100px] min-[440px]:w-[130px] lg:w-[190px] xl:w-[250px] 3xl:w-[350px] flex flex-col items-center py-2 xl:py-6 justify-center rounded-md"
     const textStyle = "text-center text-white font-bold text-xs min-[440px]:text-sm lg:text-base xl:text-xl 3xl:text-2xl 3xl:mt-3"
     return (
-        <section id="faq" className="w-full bg-amarillo flex flex-col items-center py-10 xl:py-15 3xl:py-25 relative">
+        <section id="faq" className="w-full bg-[#FFD700] flex flex-col items-center py-10 xl:py-15 3xl:py-25 relative">
 
             <div className="relative pl-10 lg:pl-20 pr-5 py-3 lg:py-8 -mr-3">
                 <img src="/img/formablanca.webp" alt="fondo naranja" className="absolute top-0 left-0 w-full h-full" />
-                <h2 className="text-azul eastman-bold text-lg min-[360px]:text-xl min-[420px]:text-2xl lg:text-3xl 3xl:text-4xl text-center z-10 relative">PREGUNTAS FRECUENTES</h2>
+                <h2 className="text-[#001A70] eastman-bold text-lg min-[360px]:text-xl min-[420px]:text-2xl lg:text-3xl 3xl:text-4xl text-center z-10 relative">PREGUNTAS FRECUENTES</h2>
                 <img src="/img/carapersonajeaventura.webp" alt="fondo naranja" className="absolute -top-5 lg:-top-7 3xl:-top-11 -left-5 3xl:-left-10 w-[50px] min-[420px]:w-[55px] lg:w-[90px] 3xl:w-[110px]" />
             </div>
             <div className="w-full flex gap-2 justify-center py-7">
-                <div className={`${boxStyle} bg-azul`}>
+                <div className={`${boxStyle} bg-[#001A70]`}>
                     <img src="/img/niveles.webp" alt="nivel de ingles" className={imgSize} />
                     <p className={textStyle}>Nivel de inglés</p>
                 </div>
-                <div className={`${boxStyle} bg-naranja`}>
+                <div className={`${boxStyle} bg-[#FFA400]`}>
                     <img src="/img/marcocomuneuropeoblanco.webp" alt="nivel de ingles" className={imgSize} />
                     <p className={textStyle}>Metodología</p>
                 </div>
-                <div className={`${boxStyle} bg-verde`}>
+                <div className={`${boxStyle} bg-[#97D700]`}>
                     <img src="/img/requisitos.webp" alt="nivel de ingles" className={imgSize} />
                     <p className={textStyle}>Requisitos</p>
                 </div>
@@ -55,7 +55,7 @@ export default function PreguntasFrecuentes() {
                                     onClick={() => setSelected(selected === ask.id ? -1 : ask.id)}
                                 >
                                     <div className=" text-xl xl:text-6xl select-none flex items-center h-full">{selected === ask.id ? "-" : "+"}</div>
-                                    <p className="text-azul">{ask.ask}</p>
+                                    <p className="text-[#001A70]">{ask.ask}</p>
                                 </div>
                                 <div
                                     className={`bg-white overflow-hidden transition-all duration-300 ${selected === ask.id ? "h-fit p-10 mb-5" : "h-0 p-0 mb-0"}`}

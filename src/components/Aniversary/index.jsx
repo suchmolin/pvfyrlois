@@ -10,10 +10,10 @@ export default function Aniversary() {
                         <img src="/img/sesiones.webp" alt="logo 26 aniversary Fyr Lois" className="w-[80px] lg:w-[110px]  h-fit" />
                     </div>
                     <div className="flex items-center absolute left-1/2 top-0 h-full">
-                        <div className="w-[2px] bg-naranja h-8/12 rounded-2xl "></div>
+                        <div className="w-[2px] bg-[#FFA400] h-8/12 rounded-2xl "></div>
                     </div>
                 </div>
-                <div className="w-full  h-[70px] flex bg-azul relative text-white text-xs min-[400px]:text-xs text-center">
+                <div className="w-full  h-[70px] flex bg-[#001A70] relative text-white text-xs min-[400px]:text-xs text-center">
                     <div className="w-1/2 flex justify-center py-5">
                         <p>26 AÑOS OFRECIENDO <br /> PLANES VACACIONALES</p>
                     </div>
@@ -33,10 +33,10 @@ export default function Aniversary() {
                         <img src="/img/marcocomun.webp" alt="logo 26 aniversary Fyr Lois" className="w-[70px] lg:w-[100px]  h-fit" />
                     </div>
                     <div className="flex items-center absolute left-1/2 top-0 h-full">
-                        <div className="w-[2px] bg-naranja h-8/12 rounded-2xl "></div>
+                        <div className="w-[2px] bg-[#FFA400] h-8/12 rounded-2xl "></div>
                     </div>
                 </div>
-                <div className="w-full  h-[70px] flex bg-azul relative text-white text-xs min-[400px]:text-xs lg:text-xs text-center">
+                <div className="w-full  h-[70px] flex bg-[#001A70] relative text-white text-xs min-[400px]:text-xs lg:text-xs text-center">
                     <div className="w-1/2 flex justify-center py-5">
                         <p>CERTIFICADO DE <br /> CULMINACIÓN</p>
                     </div>

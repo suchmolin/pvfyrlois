@@ -5,7 +5,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false)
     return (
         <>
-            <nav className="w-full h-[100px] 3xl:h-[120px] bg-azul text-white flex justify-between items-center px-5 xl:px-20 relative">
+            <nav className="w-full h-[100px] 3xl:h-[120px] bg-[#001A70] text-white flex justify-between items-center px-5 xl:px-20 relative">
                 <img src="/img/logo.webp" alt="logo Fyr Lois" className="w-[140px] 3xl:w-[170px] h-auto" />
                 <div>
                     <button onClick={() => setOpen(!open)} className="block sm:hidden cursor-pointer">
@@ -19,7 +19,7 @@ export default function Navbar() {
                     </ul>
                 </div>
             </nav>
-            <div className={`${!open ? "h-0" : "h-[40px]"} flex sm:hidden items-center bg-azul justify-between text-white text-xs eastman-bold w-full px-5 duration-300`}>
+            <div className={`${!open ? "h-0" : "h-[40px]"} flex sm:hidden items-center bg-[#001A70] justify-between text-white text-xs eastman-bold w-full px-5 duration-300`}>
                 <a href="#inicio">Inicio</a>
                 <a href="#conocenos">Conócenos</a>
                 <a href="#preventa">Preventa</a>

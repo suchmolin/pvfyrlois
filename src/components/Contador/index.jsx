@@ -33,19 +33,19 @@ export default function Contador() {
 
     return (
         <div className="pb-5 pt-2 flex gap-3 3xl:gap-7 text-3xl xl:text-4xl 3xl:text-5xl">
-            <div className="bg-white text-azul flex flex-col items-center justify-center  lemon-medium w-[65px] aspect-square rounded-lg">
+            <div className="bg-white text-[#001A70] flex flex-col items-center justify-center  lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{days}</p>
                 <p className="text-xs 3xl:text-sm eastman-bold">Days</p>
             </div>
-            <div className="bg-white text-azul flex flex-col items-center justify-center  lemon-medium w-[65px] aspect-square rounded-lg">
+            <div className="bg-white text-[#001A70] flex flex-col items-center justify-center  lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{hours}</p>
                 <p className="text-xs 3xl:text-sm eastman-bold">Hours</p>
             </div>
-            <div className="bg-white text-azul flex flex-col items-center justify-center  lemon-medium w-[65px] aspect-square rounded-lg">
+            <div className="bg-white text-[#001A70] flex flex-col items-center justify-center  lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{minutes}</p>
                 <p className="text-xs 3xl:text-sm eastman-bold">Minutes</p>
             </div>
-            <div className="bg-white text-azul flex flex-col items-center justify-center  lemon-medium w-[65px] aspect-square rounded-lg">
+            <div className="bg-white text-[#001A70] flex flex-col items-center justify-center  lemon-medium w-[65px] aspect-square rounded-lg">
                 <p className="">{seconds}</p>
                 <p className="text-xs 3xl:text-sm eastman-bold">Seconds</p>
             </div>

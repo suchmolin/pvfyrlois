@@ -60,7 +60,7 @@ export default function Formulario() {
                     />
                 </div>
                 <div className="w-full flex justify-center">
-                    <input id="BtnEnviar" type="submit" className="rounded-lg bg-azul text-white text-center px-20 py-2 cursor-pointer disabled:bg-[#243468] disabled:cursor-wait" value="Enviar" />
+                    <input id="BtnEnviar" type="submit" className="rounded-lg bg-[#001A70] text-white text-center px-20 py-2 cursor-pointer disabled:bg-[#243468] disabled:cursor-wait" value="Enviar" />
                 </div>
                 <input type="hidden" name="sede" value="FYR LOIS CCCT" />
                 <input type="hidden" name="modality" value="presencial" />

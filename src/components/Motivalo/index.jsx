@@ -11,13 +11,13 @@ export default function Motivalo() {
                             ¡MOTÍVALO A QUE EXPLORE
 
                             <br />
-                            EL MUNDO  <span className="text-azul">A TRAVÉS DEL IDIOMA!</span>
+                            EL MUNDO  <span className="text-[#001A70]">A TRAVÉS DEL IDIOMA!</span>
                         </p>
                     </div>
                 </div>
             </div>
-            <div className="w-full md:w-[700px] lg:w-[900px] xl:w-[1100px] 4xl:w-[1500px] bg-white px-4 text-azul lato-bold text-sm sm:text-lg lg:text-xl xl:text-2xl 2xl:text-4xl 4xl:text-5xl">
-                Somos una empresa americana con más de <span className="text-naranja">2 décadas enseñando idiomas alrededor del mundo. </span>
+            <div className="w-full md:w-[700px] lg:w-[900px] xl:w-[1100px] 4xl:w-[1500px] bg-white px-4 text-[#001A70] lato-bold text-sm sm:text-lg lg:text-xl xl:text-2xl 2xl:text-4xl 4xl:text-5xl">
+                Somos una empresa americana con más de <span className="text-[#FFA400]">2 décadas enseñando idiomas alrededor del mundo. </span>
                 <br />
                 <br />
                 Hemos creado un método único para que aprender un idioma sea una experiencia que se disfrute y sea efectiva.

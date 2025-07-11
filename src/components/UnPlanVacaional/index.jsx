@@ -42,8 +42,8 @@ export default function UnPlanVacaional() {
     ]
     return (
         <section id="edades" className="w-full flex flex-col items-center  overflow-hidden">
-            <div className="w-full bg-verde text-center pt-10 pb-7 3xl:py-20">
-                <h2 className="text-azul text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl 3xltext-6xl 4xl:text-7xl eastman-bold leading-7 md:leading-8 xl:leading-10 2xl:leading-12 4xl:leading-17">
+            <div className="w-full bg-[#97D700] text-center pt-10 pb-7 3xl:py-20">
+                <h2 className="text-[#001A70] text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl 3xltext-6xl 4xl:text-7xl eastman-bold leading-7 md:leading-8 xl:leading-10 2xl:leading-12 4xl:leading-17">
                     ¡UN PLAN VACACIONAL <br />
                     <span className="text-white">ADAPTADO A SU EDAD!</span>
 
@@ -86,7 +86,7 @@ export default function UnPlanVacaional() {
             </div>
 
             <div className="flex justify-center hover:scale-[102%] duration-300 py-7 md:py-0">
-                <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl eastman-bold items-center justify-center gap-2 bg-azul py-2 2xl:py-4 px-2 rounded-md mb-5 w-fit">
+                <a href="#contacto" className="flex text-[#FFA400] text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl eastman-bold items-center justify-center gap-2 bg-[#001A70] py-2 2xl:py-4 px-2 rounded-md mb-5 w-fit">
                     <span className="text-white text-4xl 3xl:text-5xl 4xl:text-6xl"><FiArrowRightCircle /></span>
                     <div className="h-8 3xl:h-12 w-[2px] 3xl:w-[3px] rounded-md bg-white">{" "}</div>
                     <span className="-mt-1">¡QUIERO INSCRIBIRLO!</span>

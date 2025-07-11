@@ -4,8 +4,8 @@ export default function QueObtiene() {
     const data = [
         {
             num: 4,
-            bg: "bg-naranja",
-            textColor: "text-azul",
+            bg: "bg-[#FFA400]",
+            textColor: "text-[#001A70]",
             content: (
                 <>
                     Semanas de <span className="eastman-bold">temáticas increíbles</span>
@@ -16,7 +16,7 @@ export default function QueObtiene() {
         {
             num: 60,
             bg: "bg-white",
-            textColor: "text-azul",
+            textColor: "text-[#001A70]",
             content: (
                 <>
                     Horas de <span className="eastman-bold">diversión y aprendizaje </span>
@@ -26,8 +26,8 @@ export default function QueObtiene() {
         },
         {
             num: null,
-            bg: "bg-naranja",
-            textColor: "text-azul",
+            bg: "bg-[#FFA400]",
+            textColor: "text-[#001A70]",
             content: (
                 <>
                     <span className="eastman-bold">Certificado  </span> de culminación
@@ -38,7 +38,7 @@ export default function QueObtiene() {
         {
             num: null,
             bg: "bg-white",
-            textColor: "text-azul",
+            textColor: "text-[#001A70]",
             content: (
                 <>
                     Socialización <span className="lemon-bold">100</span><span className="eastman-bold">% en inglés</span>
@@ -48,8 +48,8 @@ export default function QueObtiene() {
         },
         {
             num: null,
-            bg: "bg-naranja",
-            textColor: "text-azul",
+            bg: "bg-[#FFA400]",
+            textColor: "text-[#001A70]",
             content: (
                 <>
                     Unas vacaciones que <span className="eastman-bold"> recordará toda su vida</span>
@@ -62,12 +62,12 @@ export default function QueObtiene() {
     return (
         <section className="w-full">
             <div className="bg-[url('/img/rayasazules.webp')] bg-center bg-cover h-[60px] 4xl:h-[120px]"></div>
-            <div className="py-10 bg-azul">
+            <div className="py-10 bg-[#001A70]">
                 <div className="flex justify-center mb-7">
                     <div className="relative py-3 w-10/12 sm:w-fit sm:px-5">
                         <img src="/img/formaverde.webp" alt="fondo horario" className="w-full h-full absolute top-0 left-0" />
                         <p className="text-white text-nowrap text-xl md:text-2xl lg:text-3xl xl:text-4xl min-[390px]:text-2xl eastman-bold relative gap-2 text-center leading-6 lg:leading-8 xl:leading-10">
-                            ¿Qué obtiene tu hijo <br /> <span className="text-azul">en el Summer?</span>
+                            ¿Qué obtiene tu hijo <br /> <span className="text-[#001A70]">en el Summer?</span>
                         </p>
                     </div>
                 </div>

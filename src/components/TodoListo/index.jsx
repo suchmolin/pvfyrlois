@@ -6,7 +6,7 @@ export default function TodoListo() {
     const iconSize = "w-[30px] min-[350px]:w-[35px] md:w-[45px] lg:w-[55px] xl:w-[65px] 2xl:w-[70px] 3xl:w-[75px] 4xl:w-[80px] h-fit md:mr-2 aspect-square"
     return (
         <section id="tematicas" className="w-full flex flex-col items-center">
-            <h2 className="text-center text-lg text-azul">¡Todo listo para que tu hijo viva <br />
+            <h2 className="text-center text-lg text-[#001A70]">¡Todo listo para que tu hijo viva <br />
                 las mejores aventuras <span className="eastman-bold">en inglés este verano!</span>
             </h2>
             <div className="w-full flex justify-center py-5">
@@ -43,7 +43,7 @@ export default function TodoListo() {
                     <img src="/img/linterna.webp" alt="globo terraqueo" className={iconSize} />
                 </div>
             </div>
-            <div id="deporte" className="w-full py-10 lg:py-15 flex gap-4 justify-center items-center relative text-azul">
+            <div id="deporte" className="w-full py-10 lg:py-15 flex gap-4 justify-center items-center relative text-[#001A70]">
                 <img src="/img/deportefondo.webp" alt="figura de fondo para exploracion" className="w-full h-full absolute top-0 left-0" />
                 <div className={textSize}>
                     <h3 className="eastman-bold">DEPORTE</h3>
@@ -62,7 +62,7 @@ export default function TodoListo() {
                     <img src="/img/corona.webp" alt="globo terraqueo" className={iconSize} />
                 </div>
             </div>
-            <div id="tecnologia" className="w-full py-10 lg:py-15 flex gap-4 justify-center items-center relative text-azul">
+            <div id="tecnologia" className="w-full py-10 lg:py-15 flex gap-4 justify-center items-center relative text-[#001A70]">
                 <img src="/img/tecnologiafondo.webp" alt="figura de fondo para exploracion" className="w-full h-full absolute top-0 left-0" />
                 <div className={textSize}>
                     <h3 className="eastman-bold">TECNOLOGÍA</h3>
@@ -102,7 +102,7 @@ export default function TodoListo() {
             </div>
             <div className="w-full pt-15 pb-10 flex items-center justify-center bg-[url('/img/papel.webp')] bg-center bg-cover -mt-5">
                 <div className="flex justify-center hover:scale-[102%] duration-300">
-                    <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl lg:text-3xl xl:text-4xl 3xl:text-5xl eastman-bold items-center justify-center gap-2 bg-azul py-2 3xl:py-4 px-2 rounded-md mb-5 w-fit">
+                    <a href="#contacto" className="flex text-[#FFA400] text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl lg:text-3xl xl:text-4xl 3xl:text-5xl eastman-bold items-center justify-center gap-2 bg-[#001A70] py-2 3xl:py-4 px-2 rounded-md mb-5 w-fit">
                         <span className="text-white text-4xl 3xl:text-5xl"><FiArrowRightCircle /></span>
                         <div className="h-8 3xl:h-12 w-[2px] 3xl:w-[3px] rounded-md bg-white">{" "}</div>
                         <span className="-mt-1">¡INSCRÍBELO AQUÍ!</span>
