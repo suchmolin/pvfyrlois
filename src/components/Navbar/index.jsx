@@ -19,7 +19,7 @@ export default function Navbar() {
                     </ul>
                 </div>
             </nav>
-            <div className={`${!open ? "h-0" : "h-[40px]"} flex sm:hidden items-center bg-azul justify-between text-white text-xs font-eastman-bold w-full px-5 duration-300`}>
+            <div className={`${!open ? "h-0" : "h-[40px]"} flex sm:hidden items-center bg-azul justify-between text-white text-xs eastman-bold w-full px-5 duration-300`}>
                 <a href="#inicio">Inicio</a>
                 <a href="#conocenos">Conócenos</a>
                 <a href="#preventa">Preventa</a>

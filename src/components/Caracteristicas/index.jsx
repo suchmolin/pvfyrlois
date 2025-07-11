@@ -11,12 +11,12 @@ export default function Caracteristicas() {
             <h2 className="text-azul text-xl min-[380px]:text-2xl sm:text-3xl md:text-4xl  xl:text-5xl 2xl:text-6xl text-center mt-7">
                 ¡UN VERANO LLENO DE
                 <br />
-                <span className="font-eastman-bold font-bold">AVENTURAS SORPRENDENTES!</span>
+                <span className="eastman-bold font-bold">AVENTURAS SORPRENDENTES!</span>
             </h2>
             <Diferenciadores />
             <Horas />
             <Etapas />
-            <h2 className="text-azul text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-eastman-bold text-center mb-3">ESCOGE TU HORARIO FAVORITO</h2>
+            <h2 className="text-azul text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl eastman-bold text-center mb-3">ESCOGE TU HORARIO FAVORITO</h2>
 
             <div className="flex justify-center mb-7">
                 <div className="relative p-2 md:p-4 xl:p-6 w-fit">
@@ -29,7 +29,7 @@ export default function Caracteristicas() {
                 </div>
             </div>
             <div className="flex justify-center hover:scale-[102%] duration-300">
-                <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-lg min-[430px]:text-xl sm:text-3xl md:text-4xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
+                <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-lg min-[430px]:text-xl sm:text-3xl md:text-4xl eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
                     <span className="text-white text-4xl"><FiArrowRightCircle /></span>
                     <div className="h-8 w-[2px] rounded-md bg-white">{" "}</div>
                     <span className="">RESERVA SU CUPO AHORA</span>

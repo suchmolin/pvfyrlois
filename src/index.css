@@ -36,6 +36,34 @@
 }
 @import "tailwindcss";
 
+
+.eastman {
+  font-family: eastman
+}
+.eastman-bold {
+  font-family: eastman-bold
+}
+.eastman-black {
+  font-family: eastman-black
+}
+.lato {
+  font-family: lato
+}
+.lato-bold {
+  font-family: lato-bold
+}
+.lato-black {
+  font-family: lato-black
+}
+.lemon {
+  font-family: lemon
+}
+.lemon-bold {
+  font-family: lemon-bold
+}
+.lemon-medium {
+  font-family: lemon-medium
+}
 *{
   scroll-behavior: smooth;
 }

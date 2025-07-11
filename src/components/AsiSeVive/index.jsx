@@ -57,7 +57,7 @@ export default function AsiSeVive() {
         <section className="w-full flex flex-col items-center pt-10 pb-5">
             <div className="relative px-5 2xl:px-15 py-3 3xl:py-6">
                 <img src="/img/formaverde.webp" alt="fondo naranja" className="absolute top-0 left-0 w-full h-full" />
-                <h2 className="text-white font-eastman-bold text-2xl min-[480px]:text-3xl 2xl:text-5xl 4xl:text-6xl text-center z-10 relative text-nowrap">¡ASÍ SE VIVE LA<br /><span className="text-azul">EXPERIENCIA FYR LOIS!</span></h2>
+                <h2 className="text-white eastman-bold text-2xl min-[480px]:text-3xl 2xl:text-5xl 4xl:text-6xl text-center z-10 relative text-nowrap">¡ASÍ SE VIVE LA<br /><span className="text-azul">EXPERIENCIA FYR LOIS!</span></h2>
             </div>
             <div className="w-full flex justify-center">
                 <div className="w-4/6 flex justify-center gap-3 py-10">
@@ -81,7 +81,7 @@ export default function AsiSeVive() {
             </div>
 
             <div className="flex justify-center hover:scale-[102%] duration-300">
-                <a href="#contacto" className="flex text-naranja text-nowrap text-base min-[3650px]:text-lg min-[400px]:text-xl min-[460px]:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
+                <a href="#contacto" className="flex text-naranja text-nowrap text-base min-[3650px]:text-lg min-[400px]:text-xl min-[460px]:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl eastman-bold items-center justify-center gap-2 bg-azul py-2 px-2 rounded-md mb-5 w-fit">
                     <span className="text-white text-4xl 3xl:text-5xl 4xl:text-6xl"><FiArrowRightCircle /></span>
                     <div className="h-8 3xl:h-12 w-[2px] 3xl:w-[4px] rounded-md bg-white">{" "}</div>
                     <span className="">QUIERO INSCRIBIR A MI HIJO</span>

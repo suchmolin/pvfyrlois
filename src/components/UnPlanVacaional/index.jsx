@@ -43,7 +43,7 @@ export default function UnPlanVacaional() {
     return (
         <section id="edades" className="w-full flex flex-col items-center  overflow-hidden">
             <div className="w-full bg-verde text-center pt-10 pb-7 3xl:py-20">
-                <h2 className="text-azul text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl 3xltext-6xl 4xl:text-7xl font-eastman-bold leading-7 md:leading-8 xl:leading-10 2xl:leading-12 4xl:leading-17">
+                <h2 className="text-azul text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl 3xltext-6xl 4xl:text-7xl eastman-bold leading-7 md:leading-8 xl:leading-10 2xl:leading-12 4xl:leading-17">
                     ¡UN PLAN VACACIONAL <br />
                     <span className="text-white">ADAPTADO A SU EDAD!</span>
 
@@ -62,20 +62,20 @@ export default function UnPlanVacaional() {
                             <div className={`relative w-full flex justify-center items-end ${card.reverse ? "flex-row-reverse" : ""}`}>
                                 <img src={card.icon} alt={`icon for ${card.title}`} className={`block sm:hidden w-[150px] -mb-5 ${card.reverse ? "-ml-10" : "-mr-10"}`} />
                                 <img src={card.img} alt={`image for ${card.title}`} className={`block sm:hidden ${card.width} h-fit`} />
-                                <h3 style={{ color: card.titleColor }} className={`hidden sm:flex items-center gap-1 font-eastman-bold xl:text-3xl 2xl:text-4xl 3xl:text-4xl 4xl:text-4xl`}>
+                                <h3 style={{ color: card.titleColor }} className={`hidden sm:flex items-center gap-1 eastman-bold xl:text-3xl 2xl:text-4xl 3xl:text-4xl 4xl:text-4xl`}>
                                     <span style={{ backgroundColor: card.point }} className="hidden sm:block w-[12px] h-[12px] rounded-full mt-1"></span>
-                                    {card.title} <span className="font-lemon-bold -mt-1">{card.age}</span> AÑOS
+                                    {card.title} <span className="lemon-bold -mt-1">{card.age}</span> AÑOS
                                 </h3>
                             </div>
                             <div style={{ backgroundColor: card.bg }} className={`relative  w-11/12 rounded-lg py-3 px-5 text-white sm:flex sm:items-center xl:mb-20`}>
                                 <h3 style={{ color: card.titleColor }} className={`flex items-center gap-1 font-bold sm:hidden`}>
                                     <span className="w-[8px] h-[8px] bg-white rounded-full mt-1"></span>
-                                    {card.title} <span className="font-lemon -mt-1">{card.age}</span> AÑOS
+                                    {card.title} <span className="lemon -mt-1">{card.age}</span> AÑOS
                                 </h3>
                                 <div className="hidden sm:block w-[600px]"></div>
                                 <img src={card.img} alt={`image for ${card.title}`} className={`hidden sm:block ${card.width}  absolute bottom-0`} />
-                                <p className="text-center sm:text-start text-base sm:text-lg xl:text-2xl 3xl:text-3xl font-lato xl:py-5 3xl:py-6 leading-5 md:leading-6 xl:leading-7 3xl:leading-9">
-                                    <span className="font-lato-bold">{card.textBold}</span>
+                                <p className="text-center sm:text-start text-base sm:text-lg xl:text-2xl 3xl:text-3xl lato xl:py-5 3xl:py-6 leading-5 md:leading-6 xl:leading-7 3xl:leading-9">
+                                    <span className="lato-bold">{card.textBold}</span>
                                     {card.text}
                                 </p>
                             </div>
@@ -86,7 +86,7 @@ export default function UnPlanVacaional() {
             </div>
 
             <div className="flex justify-center hover:scale-[102%] duration-300 py-7 md:py-0">
-                <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl font-eastman-bold items-center justify-center gap-2 bg-azul py-2 2xl:py-4 px-2 rounded-md mb-5 w-fit">
+                <a href="#contacto" className="flex text-naranja text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl eastman-bold items-center justify-center gap-2 bg-azul py-2 2xl:py-4 px-2 rounded-md mb-5 w-fit">
                     <span className="text-white text-4xl 3xl:text-5xl 4xl:text-6xl"><FiArrowRightCircle /></span>
                     <div className="h-8 3xl:h-12 w-[2px] 3xl:w-[3px] rounded-md bg-white">{" "}</div>
                     <span className="-mt-1">¡QUIERO INSCRIBIRLO!</span>
