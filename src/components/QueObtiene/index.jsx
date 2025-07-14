@@ -33,7 +33,7 @@ export default function QueObtiene() {
                     <span className="eastman-bold">Certificado  </span> de culminación
                 </>
             ),
-            icon: <img src="/img/certificadoblanco.webp" alt="certificado en blanco" className="w-10/12 object-right h-fit" />,
+            icon: <img src="/img/certificadoblanco.webp" alt="certificado en blanco" className="w-10/12 object-right  " />,
         },
         {
             num: null,

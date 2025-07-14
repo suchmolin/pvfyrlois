@@ -4,10 +4,10 @@ export default function Aniversary() {
             <div className="w-[320px] min-[400px]:w-[360px] lg:w-[450px]  rounded-md overflow-hidden flex-col flex mb-5 md:mb-0">
                 <div className="w-full  h-[120px] lg:h-[140px] flex bg-gray-200 relative">
                     <div className="w-1/2 flex justify-center items-center py-5">
-                        <img src="/img/26aniversary.webp" alt="logo 26 aniversary Fyr Lois" className="w-[80px] lg:w-[110px] h-fit" />
+                        <img src="/img/26aniversary.webp" alt="logo 26 aniversary Fyr Lois" className="w-[80px] lg:w-[110px]" />
                     </div>
                     <div className="w-1/2 flex justify-center items-center py-5">
-                        <img src="/img/sesiones.webp" alt="logo 26 aniversary Fyr Lois" className="w-[80px] lg:w-[110px]  h-fit" />
+                        <img src="/img/sesiones.webp" alt="logo 26 aniversary Fyr Lois" className="w-[80px] lg:w-[110px] " />
                     </div>
                     <div className="flex items-center absolute left-1/2 top-0 h-full">
                         <div className="w-[2px] bg-[#FFA400] h-8/12 rounded-2xl "></div>
@@ -27,10 +27,10 @@ export default function Aniversary() {
             <div className="w-[320px] min-[400px]:w-[360px] lg:w-[450px]  rounded-md overflow-hidden flex-col flex">
                 <div className="w-full  h-[120px] lg:h-[140px] flex bg-gray-200 relative">
                     <div className="w-1/2 flex justify-center items-center py-5">
-                        <img src="/img/certificado.webp" alt="logo 26 aniversary Fyr Lois" className="w-[70px] lg:w-[100px]  h-fit" />
+                        <img src="/img/certificado.webp" alt="logo 26 aniversary Fyr Lois" className="w-[70px] lg:w-[100px] " />
                     </div>
                     <div className="w-1/2 flex justify-center items-center py-5">
-                        <img src="/img/marcocomun.webp" alt="logo 26 aniversary Fyr Lois" className="w-[70px] lg:w-[100px]  h-fit" />
+                        <img src="/img/marcocomun.webp" alt="logo 26 aniversary Fyr Lois" className="w-[70px] lg:w-[100px] " />
                     </div>
                     <div className="flex items-center absolute left-1/2 top-0 h-full">
                         <div className="w-[2px] bg-[#FFA400] h-8/12 rounded-2xl "></div>

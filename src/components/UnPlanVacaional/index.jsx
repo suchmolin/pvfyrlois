@@ -61,7 +61,7 @@ export default function UnPlanVacaional() {
                             {/* <div className="w-full h-[60px] absolute bottom-0 bg-[url('/img/rayasgrisesfondo.webp')] bg-center bg-cover"></div> */}
                             <div className={`relative w-full flex justify-center items-end ${card.reverse ? "flex-row-reverse" : ""}`}>
                                 <img src={card.icon} alt={`icon for ${card.title}`} className={`block sm:hidden w-[150px] -mb-5 ${card.reverse ? "-ml-10" : "-mr-10"}`} />
-                                <img src={card.img} alt={`image for ${card.title}`} className={`block sm:hidden ${card.width} h-fit`} />
+                                <img src={card.img} alt={`image for ${card.title}`} className={`block sm:hidden ${card.width}  `} />
                                 <h3 style={{ color: card.titleColor }} className={`hidden sm:flex items-center gap-1 eastman-bold xl:text-3xl 2xl:text-4xl 3xl:text-4xl 4xl:text-4xl`}>
                                     <span style={{ backgroundColor: card.point }} className="hidden sm:block w-[12px] h-[12px] rounded-full mt-1"></span>
                                     {card.title} <span className="lemon-bold -mt-1">{card.age}</span> AÑOS

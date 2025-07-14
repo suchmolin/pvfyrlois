@@ -90,7 +90,7 @@ export default function Galeria() {
             <div className="w-full px-5 py-5 flex flex-col items-center bg-gray-100  pb-10">
                 <h2 className="text-[#001A70] eastman-bold text-2xl lg:text-3xl xl:text-4xl  mb-5">Un <span className="text-[#FFA400] italic">Summer</span> para disfrutar</h2>
                 <div className=" w-full flex justify-center slider-container">
-                    <Slider {...settings} className="w-[370px] sm:w-[630px] lg:w-[950px] xl:w-[1150px] h-fit">
+                    <Slider {...settings} className="w-[370px] sm:w-[630px] lg:w-[950px] xl:w-[1150px] ">
                         {
                             galeria.map(gal => (
                                 <div key={gal[0]}>

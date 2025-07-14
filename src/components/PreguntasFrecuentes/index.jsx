@@ -58,7 +58,7 @@ export default function PreguntasFrecuentes() {
                                     <p className="text-[#001A70]">{ask.ask}</p>
                                 </div>
                                 <div
-                                    className={`bg-white overflow-hidden transition-all duration-300 ${selected === ask.id ? "h-fit p-10 mb-5" : "h-0 p-0 mb-0"}`}
+                                    className={`bg-white overflow-hidden transition-all duration-300 ${selected === ask.id ? "  p-10 mb-5" : "h-0 p-0 mb-0"}`}
                                 >
                                     {selected === ask.id && (
                                         <p className="text-gray-700">{ask.ans}</p>

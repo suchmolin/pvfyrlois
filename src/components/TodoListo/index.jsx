@@ -2,8 +2,8 @@ import { FiArrowRightCircle } from "react-icons/fi";
 
 export default function TodoListo() {
     const textSize = "w-[200px] min-[350px]:w-[250px] md:w-[350px] lg:w-[420px] xl:w-[600px] 2xl:w-[750px] 3xl:w-[820px] relative text-xs min-[350px]:text-sm md:text-base lg:text-lg xl:text-2xl 2xl:text-3xl 3xl:text-4xl"
-    const iconBox = "w-[75px] md:w-fit h-fit flex  flex-wrap gap-1 relative"
-    const iconSize = "w-[30px] min-[350px]:w-[35px] md:w-[45px] lg:w-[55px] xl:w-[65px] 2xl:w-[70px] 3xl:w-[75px] 4xl:w-[80px] h-fit md:mr-2 aspect-square"
+    const iconBox = "w-[75px] md:w-fit   flex  flex-wrap gap-1 relative"
+    const iconSize = "w-[30px] min-[350px]:w-[35px] md:w-[45px] lg:w-[55px] xl:w-[65px] 2xl:w-[70px] 3xl:w-[75px] 4xl:w-[80px]   md:mr-2 aspect-square"
     return (
         <section id="tematicas" className="w-full flex flex-col items-center">
             <h2 className="text-center text-lg text-[#001A70]">¡Todo listo para que tu hijo viva <br />

@@ -24,7 +24,7 @@ export default function Header() {
                     <span className="">INSCRÍBELO AHORA</span>
                 </a>
             </div>
-            <img src={ninoHeader} alt="Niño feliz yendo al plan vacacional de Fyr lois para aprender con clases 100% en ingles" className="w-[300px] md:w-[450px] lg:w-[550px] 2xl:w-[600px] 3xl:w-[700px] 4xl:w-[800px] h-fit relative" />
+            <img src={ninoHeader} alt="Niño feliz yendo al plan vacacional de Fyr lois para aprender con clases 100% en ingles" className="w-[300px] md:w-[450px] lg:w-[550px] 2xl:w-[600px] 3xl:w-[700px] 4xl:w-[800px]   relative" />
             <img src={formaAmarilla} alt="forma amarilla divisor de seccion" className="w-full absolute bottom-0 block sm:hidden" />
             <img src={formaAmarillaPC} alt="forma amarilla divisor de seccion" className="w-full absolute bottom-0 hidden sm:block" />
         </section>

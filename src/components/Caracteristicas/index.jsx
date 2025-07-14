@@ -37,8 +37,8 @@ export default function Caracteristicas() {
             </div>
 
             <div className="flex justify-center -mb-8 relative">
-                <img src="/img/amarrillo.webp" alt="personaje Fyr Lois amarillo" className="w-[200px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute -bottom-10 lg:-bottom-40 left-0 h-fit" />
-                <img src="/img/verde.webp" alt="personaje Fyr Lois amarillo" className="w-[180px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute lg:-bottom-40 right-0 h-fit" />
+                <img src="/img/amarrillo.webp" alt="personaje Fyr Lois amarillo" className="w-[200px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute -bottom-10 lg:-bottom-40 left-0" />
+                <img src="/img/verde.webp" alt="personaje Fyr Lois amarillo" className="w-[180px] min-[500px]:w-[240px] xl:w-[280px] relative lg:absolute lg:-bottom-40 right-0" />
             </div>
         </section>
     )

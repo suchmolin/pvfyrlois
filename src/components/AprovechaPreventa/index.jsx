@@ -16,10 +16,10 @@ export default function AprovechaPreventa() {
 
                 <div className="flex flex-col items-center justify-center hover:scale-[102%] duration-300 py-7">
                     <div className="w-full flex justify-center items-end -mb-3">
-                        <img src="/img/rosa.webp" alt="/img/rosa.webp" className={imgSize + " z-10 h-fit"} />
-                        <img src="/img/amarrillo.webp" alt="/img/amarrillo.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15 h-fit"} />
-                        <img src="/img/verde.webp" alt="/img/verde.webp" className={imgSize + " z-10 -ml-7 sm:-ml-15 md:-ml-15 h-fit"} />
-                        <img src="/img/naranja.webp" alt="/img/naranja.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15 h-fit"} />
+                        <img src="/img/rosa.webp" alt="/img/rosa.webp" className={imgSize + " z-10 "} />
+                        <img src="/img/amarrillo.webp" alt="/img/amarrillo.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15 "} />
+                        <img src="/img/verde.webp" alt="/img/verde.webp" className={imgSize + " z-10 -ml-7 sm:-ml-15 md:-ml-15 "} />
+                        <img src="/img/naranja.webp" alt="/img/naranja.webp" className={imgSize + " -ml-7 sm:-ml-15 md:-ml-15 "} />
                     </div>
                     <button onClick={() => checkoutHandler()} className="flex text-white text-nowrap text-lg min-[375px]:text-xl min-[430px]:text-2xl sm:text-3xl md:text-4xl xl:text-5xl 4xl:text-6xl  eastman-bold items-center justify-center gap-2 bg-[#001A70] py-2 4xl:py-4 px-2 lg:px-7 rounded-md mb-5 w-fit z-10 cursor-pointer">
                         <span className="text-white text-4xl xl:text-6xl"><FiArrowRightCircle /></span>

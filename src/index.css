@@ -36,6 +36,12 @@
 }
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-3xl: 105rem;
+  --breakpoint-4xl: 121rem;
+}
+
+
 .eastman {
   font-family: eastman
 }

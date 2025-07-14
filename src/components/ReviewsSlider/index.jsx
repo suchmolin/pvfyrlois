@@ -75,7 +75,7 @@ export default function ReviewsSlider() {
     };
     return (
         <div className="w-full flex justify-center slider-container my-10">
-            <Slider {...settings} className="w-[280px] min-[400px]:w-[340px] min-[450px]:w-[370px] sm:w-[630px] lg:w-[950px] xl:w-[1150px] h-fit">
+            <Slider {...settings} className="w-[280px] min-[400px]:w-[340px] min-[450px]:w-[370px] sm:w-[630px] lg:w-[950px] xl:w-[1150px]  ">
                 {
                     rvs.map(rv => (
                         <div key={rv[0]}>
