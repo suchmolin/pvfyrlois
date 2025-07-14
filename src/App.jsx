@@ -23,7 +23,7 @@ function App() {
   return (
     <main className='w-full min-h-screen eastman overflow-hidden' lang="es" translate="no">
       <Navbar />
-      <Header />
+      {/* <Header /> */}
       <Caracteristicas />
       <Motivalo />
       <QueObtiene />
