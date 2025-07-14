@@ -1,17 +1,17 @@
 
 import './App.css'
 import AprovechaPreventa from './components/AprovechaPreventa'
-import AsiSeVive from './components/AsiSeVive'
-import Caracteristicas from './components/Caracteristicas'
+// import AsiSeVive from './components/AsiSeVive'
+// import Caracteristicas from './components/Caracteristicas'
 import Contactanos from './components/Contactanos'
 import Footer from './components/Footer'
-import Galeria from './components/Galeriaindex'
-import Header from './components/Header'
+// import Galeria from './components/Galeriaindex'
+// import Header from './components/Header'
 import Motivalo from './components/Motivalo'
 import Navbar from './components/Navbar'
 import PreguntasFrecuentes from './components/PreguntasFrecuentes'
 import QueObtiene from './components/QueObtiene'
-import Reviews from './components/Reviews'
+// import Reviews from './components/Reviews'
 import Sumergelo from './components/Sumergelo'
 import Summer2025 from './components/Summer2025'
 import TodoListo from './components/TodoListo'
@@ -24,7 +24,7 @@ function App() {
     <main className='w-full min-h-screen eastman overflow-hidden' lang="es" translate="no">
       <Navbar />
       {/* <Header /> */}
-      <Caracteristicas />
+      {/* <Caracteristicas /> */}
       <Motivalo />
       <QueObtiene />
       {/*<Galeria />*/}
