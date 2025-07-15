@@ -1,4 +1,6 @@
 
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
 import './App.css'
 import AprovechaPreventa from './components/AprovechaPreventa'
 // import AsiSeVive from './components/AsiSeVive'
