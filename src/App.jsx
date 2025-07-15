@@ -5,7 +5,7 @@ import AsiSeVive from './components/AsiSeVive'
 import Caracteristicas from './components/Caracteristicas'
 import Contactanos from './components/Contactanos'
 import Footer from './components/Footer'
-// import Galeria from './components/Galeriaindex'
+import Galeria from './components/Galeriaindex'
 import Header from './components/Header'
 import Motivalo from './components/Motivalo'
 import Navbar from './components/Navbar'
@@ -27,7 +27,7 @@ function App() {
       <Caracteristicas />
       <Motivalo />
       <QueObtiene />
-      {/* <Galeria /> */}
+      <Galeria />
       <TodoListo />
       <Summer2025 />
       <AsiSeVive />
