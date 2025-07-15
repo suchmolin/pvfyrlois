@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss(),],
   build: {
-    target: 'esnext', // o 'es2017'
+    target: 'es2017', // o 'es2017'
   },
 })
