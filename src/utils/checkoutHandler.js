@@ -3,7 +3,7 @@ export const checkoutHandler = async () => {
         {
             id: "summer-2025",
             cantidad: 1,
-            precio: 999,
+            precio: 960,
             curso: "Summer. Plan Vacacional"
         }
     ]

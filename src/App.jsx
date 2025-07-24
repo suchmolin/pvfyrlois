@@ -29,13 +29,13 @@ function App() {
       <Caracteristicas />
       <Motivalo />
       <QueObtiene />
-      {/* <Galeria /> */}
+      <Galeria /> {/* */}
       <TodoListo />
       <Summer2025 />
-      {/* <AsiSeVive /> */}
+      <AsiSeVive /> {/* */}
       <Sumergelo />
       <UnPlanVacaional />
-      {/* <Reviews /> */}
+      <Reviews /> {/* */}
       <AprovechaPreventa />
       <PreguntasFrecuentes />
       <Contactanos />
