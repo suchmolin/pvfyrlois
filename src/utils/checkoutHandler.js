@@ -8,7 +8,7 @@ export const checkoutHandler = async () => {
         }
     ]
     
-    const resp = await fetch("https://fyrloiscom.vercel.app/api/checkoutPromo", {
+    const resp = await fetch("https://fyrlois.com/api/checkoutPromo", {
     method: "POST",
     body: JSON.stringify({data, promCode:true}),
     headers: {
