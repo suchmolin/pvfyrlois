@@ -20,15 +20,15 @@ export default function Etapas() {
 
                     </div>
                 </div> */}
-                <div className="w-6/12 flex flex-col items-center">
+                <div className="w-full md:w-6/12 flex flex-col items-center">
                     <div className="w-full flex gap-1 items-center justify-center mb-2 eastman-bold ">
                         <div className="w-[18px] h-[18px] square bg-[#D60078] rounded-full mt-2"></div>
                         <p className="text-[#001A70] text-3xl"><span className="lemon-bold">2</span>da temporada</p>
                     </div>
-                    <div className="w-full text-white flex gap-2 justify-center bg-[#D60078] text-[80px]  2xl:text-8xl leading-18 py-7 rounded-lg">
+                    <div className="w-full text-white flex gap-2 justify-center bg-[#D60078] text-7xl xl:text-8xl 2xl:text-9xl leading-28 py-7 rounded-lg text-center">
                         <div>
                             <p className="lato-black">18</p>
-                            <p className="text-4xl">Ago</p>
+                            <p className="text-4xl text-center">Ago</p>
                         </div>
                         -
                         <div>
