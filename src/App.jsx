@@ -3,17 +3,17 @@ import 'core-js/stable'
 import 'regenerator-runtime/runtime'
 import './App.css'
 import AprovechaPreventa from './components/AprovechaPreventa'
-import AsiSeVive from './components/AsiSeVive'
+//import AsiSeVive from './components/AsiSeVive'
 import Caracteristicas from './components/Caracteristicas'
 import Contactanos from './components/Contactanos'
 import Footer from './components/Footer'
-import Galeria from './components/Galeriaindex'
+//import Galeria from './components/Galeriaindex'
 import Header from './components/Header'
 import Motivalo from './components/Motivalo'
 import Navbar from './components/Navbar'
 import PreguntasFrecuentes from './components/PreguntasFrecuentes'
 import QueObtiene from './components/QueObtiene'
-import Reviews from './components/Reviews'
+//import Reviews from './components/Reviews'
 import Sumergelo from './components/Sumergelo'
 import Summer2025 from './components/Summer2025'
 import TodoListo from './components/TodoListo'
@@ -29,13 +29,13 @@ function App() {
       <Caracteristicas />
       <Motivalo />
       <QueObtiene />
-      <Galeria /> {/* */}
+      {/*<Galeria />  */}
       <TodoListo />
       <Summer2025 />
-      <AsiSeVive /> {/* */}
+      {/*<AsiSeVive />  */}
       <Sumergelo />
       <UnPlanVacaional />
-      <Reviews /> {/* */}
+      {/*<Reviews />  */}
       <AprovechaPreventa />
       <PreguntasFrecuentes />
       <Contactanos />

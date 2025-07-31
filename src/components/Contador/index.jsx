@@ -4,7 +4,7 @@ export default function Contador() {
     const getTimeLeft = () => {
         const now = new Date();
         const currentYear = now.getFullYear();
-        const target = new Date(currentYear, 6, 21, 0, 0, 0); // July is month 6 (0-indexed)
+        const target = new Date(currentYear, 7, 18, 0, 0, 0); // July is month 6 (0-indexed)
         let diff = target - now;
         if (diff < 0) diff = 0;
         const days = Math.floor(diff / (1000 * 60 * 60 * 24));
